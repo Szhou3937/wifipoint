@@ -25,6 +25,10 @@ def check_json_format(raw_msg):
     else:
         return False
 
+
+def get_data():
+    return
+
 HOST = ''
 PORT = 5000
 BUFSIZE = 2048
@@ -119,7 +123,7 @@ while True:
     print "\n#### ITEM #######"
     for e in detail_info_list:
         if 'mac' in e :
-            print "mac =", e["mac"]
+            print "mac =", e["mac"],
         if 'rssi' in e:
             print "rssi", e["rssi"]
     print "\n#### ITEM #######"

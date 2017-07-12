@@ -1,0 +1,920 @@
+C:\Python27\python.exe C:/Users/Administrator/PycharmProjects/wifipoint/wifipointer.py
+waiting for connect...
+.... connected from: ('192.168.22.108', 28225)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 2522
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Thu Jan 01 00:00:00 1970","data":[{"mac":"b8:f8:83:4d:3f:44","rssi":"-76","rssi1":"-76","rssi2":"-74","rssi3":"-75","range":"25.5"},{"mac":"08:57:00:95:04:73","rssi":"-81","rssi1":"-77","rssi2":"-77","rssi3":"-77","range":"35.8"},{"mac":"28:6c:07:99:c0:66","rssi":"-86","rssi1":"-78","rssi2":"-86","rssi3":"-78","range":"32.9"},{"mac":"70:2e:22:bc:6a:00","rssi":"-88","range":"70.8"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-84","range":"50.4"},{"mac":"d4:83:04:20:59:3a","rssi":"-89","rssi1":"-93","rssi2":"-92","range":"99.7"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-77","range":"27.7"},{"mac":"d4:83:04:31:62:20","rssi":"-95","rssi1":"-92","range":"99.7"},{"mac":"34:69:87:5a:4c:9d","rssi":"-94","rssi1":"-94","rssi2":"-93","rssi3":"-94","range":"99.7"},{"mac":"60:18:88:12:cf:37","rssi":"-87","range":"65.0"},{"mac":"a8:57:4e:81:af:d4","rssi":"-91","range":"91.5"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-79","rssi1":"-81","range":"39.0"},{"mac":"d4:83:04:57:95:4c","rssi":"-96","range":"140.1"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-90","range":"84.0"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-87","range":"65.0"},{"mac":"d0:37:42:e3:c2:67","rssi":"-93","range":"108.5","ds":"Y"},{"mac":"0c:72:2c:66:9f:fe","rssi":"-88","rssi1":"-88","range":"70.8"},{"mac":"40:c6:2a:82:58:96","rssi":"-84","rssi1":"-84","rssi2":"-85","rssi3":"-83","range":"59.7"},{"mac":"08:57:00:8a:12:0a","rssi":"-51","rssi1":"-49","rssi2":"-80","rssi3":"-51","range":"2.1","router":"TP-LINK_HyFi_504"},{"mac":"30:b4:9e:60:82:d3","rssi":"-87","rssi1":"-88","range":"70.8"},{"mac":"50:bd:5f:3c:3b:00","rssi":"-91","range":"91.5","router":"dj"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-84","rssi1":"-86","rssi2":"-85","rssi3":"-83","range":"46.3","router":"TP-LINK_FFEC"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-69","rssi1":"-67","rssi2":"-62","rssi3":"-62","range":"7.1"},{"mac":"c4:36:55:38:cf:d7","rssi":"-84","rssi1":"-85","rssi2":"-83","rssi3":"-84","range":"50.4","router":"360WiFi-38CFD7"},{"mac":"9c:21:6a:98:ba:60","rssi":"-83","range":"46.3"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-78","rssi1":"-74","rssi2":"-73","rssi3":"-77","range":"25.5","router":"mylan"},{"mac":"c8:e7:d8:18:d5:04","rssi":"-91","range":"91.5"},{"mac":"00:16:78:3c:d9:44","rssi":"-83","rssi1":"-79","range":"32.9","router":"GAOKE_3cd944"},{"mac":"78:44:76:f5:a0:92","rssi":"-89","range":"77.1"},{"mac":"20:f4:1b:86:9c:3c","rssi":"-90","range":"84.0","router":"B-LINK_869C3C"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 2522
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Thu Jan 01 00:00:00 1970","data":[{"mac":"b8:f8:83:4d:3f:44","rssi":"-76","rssi1":"-76","rssi2":"-74","rssi3":"-75","range":"25.5"},{"mac":"08:57:00:95:04:73","rssi":"-81","rssi1":"-77","rssi2":"-77","rssi3":"-77","range":"35.8"},{"mac":"28:6c:07:99:c0:66","rssi":"-86","rssi1":"-78","rssi2":"-86","rssi3":"-78","range":"32.9"},{"mac":"70:2e:22:bc:6a:00","rssi":"-88","range":"70.8"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-84","range":"50.4"},{"mac":"d4:83:04:20:59:3a","rssi":"-89","rssi1":"-93","rssi2":"-92","range":"99.7"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-77","range":"27.7"},{"mac":"d4:83:04:31:62:20","rssi":"-95","rssi1":"-92","range":"99.7"},{"mac":"34:69:87:5a:4c:9d","rssi":"-94","rssi1":"-94","rssi2":"-93","rssi3":"-94","range":"99.7"},{"mac":"60:18:88:12:cf:37","rssi":"-87","range":"65.0"},{"mac":"a8:57:4e:81:af:d4","rssi":"-91","range":"91.5"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-79","rssi1":"-81","range":"39.0"},{"mac":"d4:83:04:57:95:4c","rssi":"-96","range":"140.1"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-90","range":"84.0"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-87","range":"65.0"},{"mac":"d0:37:42:e3:c2:67","rssi":"-93","range":"108.5","ds":"Y"},{"mac":"0c:72:2c:66:9f:fe","rssi":"-88","rssi1":"-88","range":"70.8"},{"mac":"40:c6:2a:82:58:96","rssi":"-84","rssi1":"-84","rssi2":"-85","rssi3":"-83","range":"59.7"},{"mac":"08:57:00:8a:12:0a","rssi":"-51","rssi1":"-49","rssi2":"-80","rssi3":"-51","range":"2.1","router":"TP-LINK_HyFi_504"},{"mac":"30:b4:9e:60:82:d3","rssi":"-87","rssi1":"-88","range":"70.8"},{"mac":"50:bd:5f:3c:3b:00","rssi":"-91","range":"91.5","router":"dj"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-84","rssi1":"-86","rssi2":"-85","rssi3":"-83","range":"46.3","router":"TP-LINK_FFEC"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-69","rssi1":"-67","rssi2":"-62","rssi3":"-62","range":"7.1"},{"mac":"c4:36:55:38:cf:d7","rssi":"-84","rssi1":"-85","rssi2":"-83","rssi3":"-84","range":"50.4","router":"360WiFi-38CFD7"},{"mac":"9c:21:6a:98:ba:60","rssi":"-83","range":"46.3"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-78","rssi1":"-74","rssi2":"-73","rssi3":"-77","range":"25.5","router":"mylan"},{"mac":"c8:e7:d8:18:d5:04","rssi":"-91","range":"91.5"},{"mac":"00:16:78:3c:d9:44","rssi":"-83","rssi1":"-79","range":"32.9","router":"GAOKE_3cd944"},{"mac":"78:44:76:f5:a0:92","rssi":"-89","range":"77.1"},{"mac":"20:f4:1b:86:9c:3c","rssi":"-90","range":"84.0","router":"B-LINK_869C3C"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Thu Jan 01 00:00:00 1970","data":[{"mac":"b8:f8:83:4d:3f:44","rssi":"-76","rssi1":"-76","rssi2":"-74","rssi3":"-75","range":"25.5"},{"mac":"08:57:00:95:04:73","rssi":"-81","rssi1":"-77","rssi2":"-77","rssi3":"-77","range":"35.8"},{"mac":"28:6c:07:99:c0:66","rssi":"-86","rssi1":"-78","rssi2":"-86","rssi3":"-78","range":"32.9"},{"mac":"70:2e:22:bc:6a:00","rssi":"-88","range":"70.8"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-84","range":"50.4"},{"mac":"d4:83:04:20:59:3a","rssi":"-89","rssi1":"-93","rssi2":"-92","range":"99.7"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-77","range":"27.7"},{"mac":"d4:83:04:31:62:20","rssi":"-95","rssi1":"-92","range":"99.7"},{"mac":"34:69:87:5a:4c:9d","rssi":"-94","rssi1":"-94","rssi2":"-93","rssi3":"-94","range":"99.7"},{"mac":"60:18:88:12:cf:37","rssi":"-87","range":"65.0"},{"mac":"a8:57:4e:81:af:d4","rssi":"-91","range":"91.5"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-79","rssi1":"-81","range":"39.0"},{"mac":"d4:83:04:57:95:4c","rssi":"-96","range":"140.1"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-90","range":"84.0"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-87","range":"65.0"},{"mac":"d0:37:42:e3:c2:67","rssi":"-93","range":"108.5","ds":"Y"},{"mac":"0c:72:2c:66:9f:fe","rssi":"-88","rssi1":"-88","range":"70.8"},{"mac":"40:c6:2a:82:58:96","rssi":"-84","rssi1":"-84","rssi2":"-85","rssi3":"-83","range":"59.7"},{"mac":"08:57:00:8a:12:0a","rssi":"-51","rssi1":"-49","rssi2":"-80","rssi3":"-51","range":"2.1","router":"TP-LINK_HyFi_504"},{"mac":"30:b4:9e:60:82:d3","rssi":"-87","rssi1":"-88","range":"70.8"},{"mac":"50:bd:5f:3c:3b:00","rssi":"-91","range":"91.5","router":"dj"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-84","rssi1":"-86","rssi2":"-85","rssi3":"-83","range":"46.3","router":"TP-LINK_FFEC"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-69","rssi1":"-67","rssi2":"-62","rssi3":"-62","range":"7.1"},{"mac":"c4:36:55:38:cf:d7","rssi":"-84","rssi1":"-85","rssi2":"-83","rssi3":"-84","range":"50.4","router":"360WiFi-38CFD7"},{"mac":"9c:21:6a:98:ba:60","rssi":"-83","range":"46.3"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-78","rssi1":"-74","rssi2":"-73","rssi3":"-77","range":"25.5","router":"mylan"},{"mac":"c8:e7:d8:18:d5:04","rssi":"-91","range":"91.5"},{"mac":"00:16:78:3c:d9:44","rssi":"-83","rssi1":"-79","range":"32.9","router":"GAOKE_3cd944"},{"mac":"78:44:76:f5:a0:92","rssi":"-89","range":"77.1"},{"mac":"20:f4:1b:86:9c:3c","rssi":"-90","range":"84.0","router":"B-LINK_869C3C"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi2': u'-74', u'rssi3': u'-75', u'rssi1': u'-76', u'range': u'25.5', u'mac': u'b8:f8:83:4d:3f:44', u'rssi': u'-76'}, {u'rssi2': u'-77', u'rssi3': u'-77', u'rssi1': u'-77', u'range': u'35.8', u'mac': u'08:57:00:95:04:73', u'rssi': u'-81'}, {u'rssi2': u'-86', u'rssi3': u'-78', u'rssi1': u'-78', u'range': u'32.9', u'mac': u'28:6c:07:99:c0:66', u'rssi': u'-86'}, {u'rssi': u'-88', u'mac': u'70:2e:22:bc:6a:00', u'range': u'70.8'}, {u'rssi': u'-84', u'mac': u'c8:3a:35:2d:32:d8', u'range': u'50.4'}, {u'rssi2': u'-92', u'rssi': u'-89', u'mac': u'd4:83:04:20:59:3a', u'rssi1': u'-93', u'range': u'99.7'}, {u'rssi': u'-77', u'mac': u'b0:95:8e:0a:1d:98', u'range': u'27.7'}, {u'rssi': u'-95', u'mac': u'd4:83:04:31:62:20', u'rssi1': u'-92', u'range': u'99.7'}, {u'rssi2': u'-93', u'rssi3': u'-94', u'rssi1': u'-94', u'range': u'99.7', u'mac': u'34:69:87:5a:4c:9d', u'rssi': u'-94'}, {u'rssi': u'-87', u'mac': u'60:18:88:12:cf:37', u'range': u'65.0'}, {u'rssi': u'-91', u'mac': u'a8:57:4e:81:af:d4', u'range': u'91.5'}, {u'rssi': u'-79', u'mac': u'44:97:5a:a0:9f:5c', u'rssi1': u'-81', u'range': u'39.0'}, {u'rssi': u'-96', u'mac': u'd4:83:04:57:95:4c', u'range': u'140.1'}, {u'rssi': u'-90', u'mac': u'a8:57:4e:9e:04:f6', u'range': u'84.0'}, {u'rssi': u'-87', u'mac': u'd4:83:04:ba:5b:6c', u'range': u'65.0'}, {u'rssi': u'-93', u'mac': u'd0:37:42:e3:c2:67', u'range': u'108.5', u'ds': u'Y'}, {u'rssi': u'-88', u'mac': u'0c:72:2c:66:9f:fe', u'rssi1': u'-88', u'range': u'70.8'}, {u'rssi2': u'-85', u'rssi3': u'-83', u'rssi1': u'-84', u'range': u'59.7', u'mac': u'40:c6:2a:82:58:96', u'rssi': u'-84'}, {u'rssi2': u'-80', u'rssi3': u'-51', u'rssi1': u'-49', u'range': u'2.1', u'mac': u'08:57:00:8a:12:0a', u'router': u'TP-LINK_HyFi_504', u'rssi': u'-51'}, {u'rssi': u'-87', u'mac': u'30:b4:9e:60:82:d3', u'rssi1': u'-88', u'range': u'70.8'}, {u'rssi': u'-91', u'mac': u'50:bd:5f:3c:3b:00', u'range': u'91.5', u'router': u'dj'}, {u'rssi2': u'-85', u'rssi3': u'-83', u'rssi1': u'-86', u'range': u'46.3', u'mac': u'fc:d7:33:31:ff:ec', u'router': u'TP-LINK_FFEC', u'rssi': u'-84'}, {u'rssi2': u'-62', u'rssi3': u'-62', u'rssi1': u'-67', u'range': u'7.1', u'mac': u'f0:b4:29:d4:11:e1', u'rssi': u'-69'}, {u'rssi2': u'-83', u'rssi3': u'-84', u'rssi1': u'-85', u'range': u'50.4', u'mac': u'c4:36:55:38:cf:d7', u'router': u'360WiFi-38CFD7', u'rssi': u'-84'}, {u'rssi': u'-83', u'mac': u'9c:21:6a:98:ba:60', u'range': u'46.3'}, {u'rssi2': u'-73', u'rssi3': u'-77', u'rssi1': u'-74', u'range': u'25.5', u'mac': u'00:b0:0c:0a:0b:48', u'router': u'mylan', u'rssi': u'-78'}, {u'rssi': u'-91', u'mac': u'c8:e7:d8:18:d5:04', u'range': u'91.5'}, {u'rssi': u'-83', u'mac': u'00:16:78:3c:d9:44', u'rssi1': u'-79', u'range': u'32.9', u'router': u'GAOKE_3cd944'}, {u'rssi': u'-89', u'mac': u'78:44:76:f5:a0:92', u'range': u'77.1'}, {u'rssi': u'-90', u'mac': u'20:f4:1b:86:9c:3c', u'range': u'84.0', u'router': u'B-LINK_869C3C'}]
+
+###########
+
+#### ITEM #######
+mac = b8:f8:83:4d:3f:44 rssi -76
+mac = 08:57:00:95:04:73 rssi -81
+mac = 28:6c:07:99:c0:66 rssi -86
+mac = 70:2e:22:bc:6a:00 rssi -88
+mac = c8:3a:35:2d:32:d8 rssi -84
+mac = d4:83:04:20:59:3a rssi -89
+mac = b0:95:8e:0a:1d:98 rssi -77
+mac = d4:83:04:31:62:20 rssi -95
+mac = 34:69:87:5a:4c:9d rssi -94
+mac = 60:18:88:12:cf:37 rssi -87
+mac = a8:57:4e:81:af:d4 rssi -91
+mac = 44:97:5a:a0:9f:5c rssi -79
+mac = d4:83:04:57:95:4c rssi -96
+mac = a8:57:4e:9e:04:f6 rssi -90
+mac = d4:83:04:ba:5b:6c rssi -87
+mac = d0:37:42:e3:c2:67 rssi -93
+mac = 0c:72:2c:66:9f:fe rssi -88
+mac = 40:c6:2a:82:58:96 rssi -84
+mac = 08:57:00:8a:12:0a rssi -51
+mac = 30:b4:9e:60:82:d3 rssi -87
+mac = 50:bd:5f:3c:3b:00 rssi -91
+mac = fc:d7:33:31:ff:ec rssi -84
+mac = f0:b4:29:d4:11:e1 rssi -69
+mac = c4:36:55:38:cf:d7 rssi -84
+mac = 9c:21:6a:98:ba:60 rssi -83
+mac = 00:b0:0c:0a:0b:48 rssi -78
+mac = c8:e7:d8:18:d5:04 rssi -91
+mac = 00:16:78:3c:d9:44 rssi -83
+mac = 78:44:76:f5:a0:92 rssi -89
+mac = 20:f4:1b:86:9c:3c rssi -90
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 47084)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1198
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Thu Jan 01 00:00:00 1970","data":[{"mac":"ec:17:2f:91:83:28","rssi":"-86","range":"59.7","router":"FAST_918328"},{"mac":"58:7f:57:d5:37:da","rssi":"-92","rssi1":"-92","rssi2":"-92","rssi3":"-94","range":"118.1","ds":"Y"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-87","range":"65.0"},{"mac":"88:25:93:74:65:17","rssi":"-70","rssi1":"-69","rssi2":"-73","range":"19.7","router":"Y.S EDU"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-72","rssi1":"-72","range":"18.1","router":"ChinaNet-t6xh"},{"mac":"ec:26:ca:ed:01:c0","rssi":"-91","range":"91.5"},{"mac":"00:b0:0c:30:de:d6","rssi":"-89","range":"77.1"},{"mac":"c0:61:18:a8:31:bc","rssi":"-87","range":"65.0","router":"FAST_31BC"},{"mac":"74:c3:30:00:55:22","rssi":"-96","range":"140.1"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-90","range":"84.0"},{"mac":"ec:5a:86:6b:e0:bc","rssi":"-94","range":"118.1","essid0":"jz783"},{"mac":"08:57:00:8a:12:0a","rssi":"-81","range":"39.0","router":"TP-LINK_HyFi_504"},{"mac":"08:57:00:95:04:73","rssi":"-79","range":"32.9"},{"mac":"a8:5b:78:2d:c0:c3","rssi":"-74","range":"21.5","essid0":"TP-LINK_HyFi_504"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1198
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Thu Jan 01 00:00:00 1970","data":[{"mac":"ec:17:2f:91:83:28","rssi":"-86","range":"59.7","router":"FAST_918328"},{"mac":"58:7f:57:d5:37:da","rssi":"-92","rssi1":"-92","rssi2":"-92","rssi3":"-94","range":"118.1","ds":"Y"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-87","range":"65.0"},{"mac":"88:25:93:74:65:17","rssi":"-70","rssi1":"-69","rssi2":"-73","range":"19.7","router":"Y.S EDU"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-72","rssi1":"-72","range":"18.1","router":"ChinaNet-t6xh"},{"mac":"ec:26:ca:ed:01:c0","rssi":"-91","range":"91.5"},{"mac":"00:b0:0c:30:de:d6","rssi":"-89","range":"77.1"},{"mac":"c0:61:18:a8:31:bc","rssi":"-87","range":"65.0","router":"FAST_31BC"},{"mac":"74:c3:30:00:55:22","rssi":"-96","range":"140.1"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-90","range":"84.0"},{"mac":"ec:5a:86:6b:e0:bc","rssi":"-94","range":"118.1","essid0":"jz783"},{"mac":"08:57:00:8a:12:0a","rssi":"-81","range":"39.0","router":"TP-LINK_HyFi_504"},{"mac":"08:57:00:95:04:73","rssi":"-79","range":"32.9"},{"mac":"a8:5b:78:2d:c0:c3","rssi":"-74","range":"21.5","essid0":"TP-LINK_HyFi_504"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Thu Jan 01 00:00:00 1970","data":[{"mac":"ec:17:2f:91:83:28","rssi":"-86","range":"59.7","router":"FAST_918328"},{"mac":"58:7f:57:d5:37:da","rssi":"-92","rssi1":"-92","rssi2":"-92","rssi3":"-94","range":"118.1","ds":"Y"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-87","range":"65.0"},{"mac":"88:25:93:74:65:17","rssi":"-70","rssi1":"-69","rssi2":"-73","range":"19.7","router":"Y.S EDU"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-72","rssi1":"-72","range":"18.1","router":"ChinaNet-t6xh"},{"mac":"ec:26:ca:ed:01:c0","rssi":"-91","range":"91.5"},{"mac":"00:b0:0c:30:de:d6","rssi":"-89","range":"77.1"},{"mac":"c0:61:18:a8:31:bc","rssi":"-87","range":"65.0","router":"FAST_31BC"},{"mac":"74:c3:30:00:55:22","rssi":"-96","range":"140.1"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-90","range":"84.0"},{"mac":"ec:5a:86:6b:e0:bc","rssi":"-94","range":"118.1","essid0":"jz783"},{"mac":"08:57:00:8a:12:0a","rssi":"-81","range":"39.0","router":"TP-LINK_HyFi_504"},{"mac":"08:57:00:95:04:73","rssi":"-79","range":"32.9"},{"mac":"a8:5b:78:2d:c0:c3","rssi":"-74","range":"21.5","essid0":"TP-LINK_HyFi_504"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi': u'-86', u'mac': u'ec:17:2f:91:83:28', u'range': u'59.7', u'router': u'FAST_918328'}, {u'rssi2': u'-92', u'rssi3': u'-94', u'rssi1': u'-92', u'range': u'118.1', u'mac': u'58:7f:57:d5:37:da', u'rssi': u'-92', u'ds': u'Y'}, {u'rssi': u'-87', u'mac': u'c8:3a:35:2d:32:d8', u'range': u'65.0'}, {u'rssi2': u'-73', u'rssi1': u'-69', u'range': u'19.7', u'mac': u'88:25:93:74:65:17', u'router': u'Y.S EDU', u'rssi': u'-70'}, {u'rssi': u'-72', u'mac': u'e0:4f:bd:c8:45:59', u'rssi1': u'-72', u'range': u'18.1', u'router': u'ChinaNet-t6xh'}, {u'rssi': u'-91', u'mac': u'ec:26:ca:ed:01:c0', u'range': u'91.5'}, {u'rssi': u'-89', u'mac': u'00:b0:0c:30:de:d6', u'range': u'77.1'}, {u'rssi': u'-87', u'mac': u'c0:61:18:a8:31:bc', u'range': u'65.0', u'router': u'FAST_31BC'}, {u'rssi': u'-96', u'mac': u'74:c3:30:00:55:22', u'range': u'140.1'}, {u'rssi': u'-90', u'mac': u'70:a8:e3:d7:6e:14', u'range': u'84.0'}, {u'rssi': u'-94', u'mac': u'ec:5a:86:6b:e0:bc', u'range': u'118.1', u'essid0': u'jz783'}, {u'rssi': u'-81', u'mac': u'08:57:00:8a:12:0a', u'range': u'39.0', u'router': u'TP-LINK_HyFi_504'}, {u'rssi': u'-79', u'mac': u'08:57:00:95:04:73', u'range': u'32.9'}, {u'rssi': u'-74', u'mac': u'a8:5b:78:2d:c0:c3', u'range': u'21.5', u'essid0': u'TP-LINK_HyFi_504'}]
+
+###########
+
+#### ITEM #######
+mac = ec:17:2f:91:83:28 rssi -86
+mac = 58:7f:57:d5:37:da rssi -92
+mac = c8:3a:35:2d:32:d8 rssi -87
+mac = 88:25:93:74:65:17 rssi -70
+mac = e0:4f:bd:c8:45:59 rssi -72
+mac = ec:26:ca:ed:01:c0 rssi -91
+mac = 00:b0:0c:30:de:d6 rssi -89
+mac = c0:61:18:a8:31:bc rssi -87
+mac = 74:c3:30:00:55:22 rssi -96
+mac = 70:a8:e3:d7:6e:14 rssi -90
+mac = ec:5a:86:6b:e0:bc rssi -94
+mac = 08:57:00:8a:12:0a rssi -81
+mac = 08:57:00:95:04:73 rssi -79
+mac = a8:5b:78:2d:c0:c3 rssi -74
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 19992)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1579
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Thu Jan 01 00:00:00 1970","data":[{"mac":"70:2e:22:bc:6a:00","rssi":"-88","range":"70.8"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-85","range":"54.8"},{"mac":"a4:56:02:9a:de:77","rssi":"-92","range":"99.7"},{"mac":"28:6c:07:99:c0:66","rssi":"-88","rssi1":"-87","rssi2":"-88","rssi3":"-83","range":"46.3"},{"mac":"d4:83:04:20:59:3a","rssi":"-91","rssi1":"-93","rssi2":"-90","range":"84.0"},{"mac":"60:18:88:12:cf:37","rssi":"-90","range":"84.0"},{"mac":"08:57:00:95:04:73","rssi":"-80","rssi1":"-83","range":"46.3"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-75","range":"23.4"},{"mac":"d4:83:04:57:95:4c","rssi":"-96","range":"140.1"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-91","range":"91.5"},{"mac":"44:97:5a:d5:8d:a2","rssi":"-92","range":"99.7"},{"mac":"6c:59:40:3b:4c:ee","rssi":"-92","range":"99.7"},{"mac":"d4:83:04:93:f8:cc","rssi":"-96","range":"140.1"},{"mac":"d4:83:04:12:37:9c","rssi":"-94","range":"118.1"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-92","range":"99.7"},{"mac":"a8:15:4d:65:31:96","rssi":"-88","range":"70.8","router":"FAST_653196"},{"mac":"64:d9:54:c5:c6:70","rssi":"-91","range":"91.5","router":"123"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-66","range":"10.8"},{"mac":"c4:36:55:38:cf:d7","rssi":"-83","rssi1":"-84","range":"50.4","router":"360WiFi-38CFD7"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-74","range":"21.5","router":"mylan"},{"mac":"e0:b9:4d:87:cc:b8","rssi":"-87","range":"65.0"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-64","range":"9.1","ds":"Y"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1579
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Thu Jan 01 00:00:00 1970","data":[{"mac":"70:2e:22:bc:6a:00","rssi":"-88","range":"70.8"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-85","range":"54.8"},{"mac":"a4:56:02:9a:de:77","rssi":"-92","range":"99.7"},{"mac":"28:6c:07:99:c0:66","rssi":"-88","rssi1":"-87","rssi2":"-88","rssi3":"-83","range":"46.3"},{"mac":"d4:83:04:20:59:3a","rssi":"-91","rssi1":"-93","rssi2":"-90","range":"84.0"},{"mac":"60:18:88:12:cf:37","rssi":"-90","range":"84.0"},{"mac":"08:57:00:95:04:73","rssi":"-80","rssi1":"-83","range":"46.3"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-75","range":"23.4"},{"mac":"d4:83:04:57:95:4c","rssi":"-96","range":"140.1"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-91","range":"91.5"},{"mac":"44:97:5a:d5:8d:a2","rssi":"-92","range":"99.7"},{"mac":"6c:59:40:3b:4c:ee","rssi":"-92","range":"99.7"},{"mac":"d4:83:04:93:f8:cc","rssi":"-96","range":"140.1"},{"mac":"d4:83:04:12:37:9c","rssi":"-94","range":"118.1"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-92","range":"99.7"},{"mac":"a8:15:4d:65:31:96","rssi":"-88","range":"70.8","router":"FAST_653196"},{"mac":"64:d9:54:c5:c6:70","rssi":"-91","range":"91.5","router":"123"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-66","range":"10.8"},{"mac":"c4:36:55:38:cf:d7","rssi":"-83","rssi1":"-84","range":"50.4","router":"360WiFi-38CFD7"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-74","range":"21.5","router":"mylan"},{"mac":"e0:b9:4d:87:cc:b8","rssi":"-87","range":"65.0"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-64","range":"9.1","ds":"Y"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Thu Jan 01 00:00:00 1970","data":[{"mac":"70:2e:22:bc:6a:00","rssi":"-88","range":"70.8"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-85","range":"54.8"},{"mac":"a4:56:02:9a:de:77","rssi":"-92","range":"99.7"},{"mac":"28:6c:07:99:c0:66","rssi":"-88","rssi1":"-87","rssi2":"-88","rssi3":"-83","range":"46.3"},{"mac":"d4:83:04:20:59:3a","rssi":"-91","rssi1":"-93","rssi2":"-90","range":"84.0"},{"mac":"60:18:88:12:cf:37","rssi":"-90","range":"84.0"},{"mac":"08:57:00:95:04:73","rssi":"-80","rssi1":"-83","range":"46.3"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-75","range":"23.4"},{"mac":"d4:83:04:57:95:4c","rssi":"-96","range":"140.1"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-91","range":"91.5"},{"mac":"44:97:5a:d5:8d:a2","rssi":"-92","range":"99.7"},{"mac":"6c:59:40:3b:4c:ee","rssi":"-92","range":"99.7"},{"mac":"d4:83:04:93:f8:cc","rssi":"-96","range":"140.1"},{"mac":"d4:83:04:12:37:9c","rssi":"-94","range":"118.1"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-92","range":"99.7"},{"mac":"a8:15:4d:65:31:96","rssi":"-88","range":"70.8","router":"FAST_653196"},{"mac":"64:d9:54:c5:c6:70","rssi":"-91","range":"91.5","router":"123"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-66","range":"10.8"},{"mac":"c4:36:55:38:cf:d7","rssi":"-83","rssi1":"-84","range":"50.4","router":"360WiFi-38CFD7"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-74","range":"21.5","router":"mylan"},{"mac":"e0:b9:4d:87:cc:b8","rssi":"-87","range":"65.0"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-64","range":"9.1","ds":"Y"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi': u'-88', u'mac': u'70:2e:22:bc:6a:00', u'range': u'70.8'}, {u'rssi': u'-85', u'mac': u'c8:3a:35:2d:32:d8', u'range': u'54.8'}, {u'rssi': u'-92', u'mac': u'a4:56:02:9a:de:77', u'range': u'99.7'}, {u'rssi2': u'-88', u'rssi3': u'-83', u'rssi1': u'-87', u'range': u'46.3', u'mac': u'28:6c:07:99:c0:66', u'rssi': u'-88'}, {u'rssi2': u'-90', u'rssi': u'-91', u'mac': u'd4:83:04:20:59:3a', u'rssi1': u'-93', u'range': u'84.0'}, {u'rssi': u'-90', u'mac': u'60:18:88:12:cf:37', u'range': u'84.0'}, {u'rssi': u'-80', u'mac': u'08:57:00:95:04:73', u'rssi1': u'-83', u'range': u'46.3'}, {u'rssi': u'-75', u'mac': u'b8:f8:83:4d:3f:44', u'range': u'23.4'}, {u'rssi': u'-96', u'mac': u'd4:83:04:57:95:4c', u'range': u'140.1'}, {u'rssi': u'-91', u'mac': u'd4:83:04:ba:5b:6c', u'range': u'91.5'}, {u'rssi': u'-92', u'mac': u'44:97:5a:d5:8d:a2', u'range': u'99.7'}, {u'rssi': u'-92', u'mac': u'6c:59:40:3b:4c:ee', u'range': u'99.7'}, {u'rssi': u'-96', u'mac': u'd4:83:04:93:f8:cc', u'range': u'140.1'}, {u'rssi': u'-94', u'mac': u'd4:83:04:12:37:9c', u'range': u'118.1'}, {u'rssi': u'-92', u'mac': u'a8:57:4e:9e:04:f6', u'range': u'99.7'}, {u'rssi': u'-88', u'mac': u'a8:15:4d:65:31:96', u'range': u'70.8', u'router': u'FAST_653196'}, {u'rssi': u'-91', u'mac': u'64:d9:54:c5:c6:70', u'range': u'91.5', u'router': u'123'}, {u'rssi': u'-66', u'mac': u'f0:b4:29:d4:11:e1', u'range': u'10.8'}, {u'rssi': u'-83', u'mac': u'c4:36:55:38:cf:d7', u'rssi1': u'-84', u'range': u'50.4', u'router': u'360WiFi-38CFD7'}, {u'rssi': u'-74', u'mac': u'00:b0:0c:0a:0b:48', u'range': u'21.5', u'router': u'mylan'}, {u'rssi': u'-87', u'mac': u'e0:b9:4d:87:cc:b8', u'range': u'65.0'}, {u'rssi': u'-64', u'mac': u'48:43:7c:e0:0d:8c', u'range': u'9.1', u'ds': u'Y'}]
+
+###########
+
+#### ITEM #######
+mac = 70:2e:22:bc:6a:00 rssi -88
+mac = c8:3a:35:2d:32:d8 rssi -85
+mac = a4:56:02:9a:de:77 rssi -92
+mac = 28:6c:07:99:c0:66 rssi -88
+mac = d4:83:04:20:59:3a rssi -91
+mac = 60:18:88:12:cf:37 rssi -90
+mac = 08:57:00:95:04:73 rssi -80
+mac = b8:f8:83:4d:3f:44 rssi -75
+mac = d4:83:04:57:95:4c rssi -96
+mac = d4:83:04:ba:5b:6c rssi -91
+mac = 44:97:5a:d5:8d:a2 rssi -92
+mac = 6c:59:40:3b:4c:ee rssi -92
+mac = d4:83:04:93:f8:cc rssi -96
+mac = d4:83:04:12:37:9c rssi -94
+mac = a8:57:4e:9e:04:f6 rssi -92
+mac = a8:15:4d:65:31:96 rssi -88
+mac = 64:d9:54:c5:c6:70 rssi -91
+mac = f0:b4:29:d4:11:e1 rssi -66
+mac = c4:36:55:38:cf:d7 rssi -83
+mac = 00:b0:0c:0a:0b:48 rssi -74
+mac = e0:b9:4d:87:cc:b8 rssi -87
+mac = 48:43:7c:e0:0d:8c rssi -64
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 20581)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1373
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:26 2017","data":[{"mac":"24:0a:64:bb:50:fc","rssi":"-48","rssi1":"-49","rssi2":"-56","rssi3":"-57","range":"5.0"},{"mac":"08:57:00:8a:12:0a","rssi":"-52","rssi1":"-67","range":"11.8","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-78","range":"30.2","router":"mylan"},{"mac":"c8:e7:d8:18:d5:04","rssi":"-90","range":"84.0"},{"mac":"00:16:78:3c:d9:44","rssi":"-77","range":"27.7","router":"GAOKE_3cd944"},{"mac":"88:25:93:74:65:17","rssi":"-70","rssi1":"-72","range":"18.1","router":"Y.S EDU"},{"mac":"ec:17:2f:91:83:28","rssi":"-86","range":"59.7","router":"FAST_918328"},{"mac":"c0:61:18:a8:31:bc","rssi":"-91","range":"91.5","router":"FAST_31BC"},{"mac":"6c:e8:73:6d:9e:5c","rssi":"-93","range":"108.5"},{"mac":"a8:57:4e:3b:c7:20","rssi":"-91","range":"91.5"},{"mac":"58:7f:57:d5:37:da","rssi":"-90","rssi1":"-90","rssi2":"-90","rssi3":"-89","range":"91.5"},{"mac":"d4:a1:48:90:c9:1c","rssi":"-86","range":"59.7","router":"HUAWEI-DBMK3W"},{"mac":"78:a1:06:f3:ed:02","rssi":"-87","range":"65.0","router":"MERCURY_F3ED02"},{"mac":"d8:15:0d:77:b9:82","rssi":"-89","range":"77.1"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-73","range":"19.7","router":"ChinaNet-t6xh"},{"mac":"c8:3a:35:3c:a0:18","rssi":"-91","range":"91.5"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1373
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:26 2017","data":[{"mac":"24:0a:64:bb:50:fc","rssi":"-48","rssi1":"-49","rssi2":"-56","rssi3":"-57","range":"5.0"},{"mac":"08:57:00:8a:12:0a","rssi":"-52","rssi1":"-67","range":"11.8","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-78","range":"30.2","router":"mylan"},{"mac":"c8:e7:d8:18:d5:04","rssi":"-90","range":"84.0"},{"mac":"00:16:78:3c:d9:44","rssi":"-77","range":"27.7","router":"GAOKE_3cd944"},{"mac":"88:25:93:74:65:17","rssi":"-70","rssi1":"-72","range":"18.1","router":"Y.S EDU"},{"mac":"ec:17:2f:91:83:28","rssi":"-86","range":"59.7","router":"FAST_918328"},{"mac":"c0:61:18:a8:31:bc","rssi":"-91","range":"91.5","router":"FAST_31BC"},{"mac":"6c:e8:73:6d:9e:5c","rssi":"-93","range":"108.5"},{"mac":"a8:57:4e:3b:c7:20","rssi":"-91","range":"91.5"},{"mac":"58:7f:57:d5:37:da","rssi":"-90","rssi1":"-90","rssi2":"-90","rssi3":"-89","range":"91.5"},{"mac":"d4:a1:48:90:c9:1c","rssi":"-86","range":"59.7","router":"HUAWEI-DBMK3W"},{"mac":"78:a1:06:f3:ed:02","rssi":"-87","range":"65.0","router":"MERCURY_F3ED02"},{"mac":"d8:15:0d:77:b9:82","rssi":"-89","range":"77.1"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-73","range":"19.7","router":"ChinaNet-t6xh"},{"mac":"c8:3a:35:3c:a0:18","rssi":"-91","range":"91.5"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:26 2017","data":[{"mac":"24:0a:64:bb:50:fc","rssi":"-48","rssi1":"-49","rssi2":"-56","rssi3":"-57","range":"5.0"},{"mac":"08:57:00:8a:12:0a","rssi":"-52","rssi1":"-67","range":"11.8","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-78","range":"30.2","router":"mylan"},{"mac":"c8:e7:d8:18:d5:04","rssi":"-90","range":"84.0"},{"mac":"00:16:78:3c:d9:44","rssi":"-77","range":"27.7","router":"GAOKE_3cd944"},{"mac":"88:25:93:74:65:17","rssi":"-70","rssi1":"-72","range":"18.1","router":"Y.S EDU"},{"mac":"ec:17:2f:91:83:28","rssi":"-86","range":"59.7","router":"FAST_918328"},{"mac":"c0:61:18:a8:31:bc","rssi":"-91","range":"91.5","router":"FAST_31BC"},{"mac":"6c:e8:73:6d:9e:5c","rssi":"-93","range":"108.5"},{"mac":"a8:57:4e:3b:c7:20","rssi":"-91","range":"91.5"},{"mac":"58:7f:57:d5:37:da","rssi":"-90","rssi1":"-90","rssi2":"-90","rssi3":"-89","range":"91.5"},{"mac":"d4:a1:48:90:c9:1c","rssi":"-86","range":"59.7","router":"HUAWEI-DBMK3W"},{"mac":"78:a1:06:f3:ed:02","rssi":"-87","range":"65.0","router":"MERCURY_F3ED02"},{"mac":"d8:15:0d:77:b9:82","rssi":"-89","range":"77.1"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-73","range":"19.7","router":"ChinaNet-t6xh"},{"mac":"c8:3a:35:3c:a0:18","rssi":"-91","range":"91.5"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi2': u'-56', u'rssi3': u'-57', u'rssi1': u'-49', u'range': u'5.0', u'mac': u'24:0a:64:bb:50:fc', u'rssi': u'-48'}, {u'rssi': u'-52', u'mac': u'08:57:00:8a:12:0a', u'rssi1': u'-67', u'range': u'11.8', u'router': u'TP-LINK_HyFi_504'}, {u'rssi': u'-78', u'mac': u'00:b0:0c:0a:0b:48', u'range': u'30.2', u'router': u'mylan'}, {u'rssi': u'-90', u'mac': u'c8:e7:d8:18:d5:04', u'range': u'84.0'}, {u'rssi': u'-77', u'mac': u'00:16:78:3c:d9:44', u'range': u'27.7', u'router': u'GAOKE_3cd944'}, {u'rssi': u'-70', u'mac': u'88:25:93:74:65:17', u'rssi1': u'-72', u'range': u'18.1', u'router': u'Y.S EDU'}, {u'rssi': u'-86', u'mac': u'ec:17:2f:91:83:28', u'range': u'59.7', u'router': u'FAST_918328'}, {u'rssi': u'-91', u'mac': u'c0:61:18:a8:31:bc', u'range': u'91.5', u'router': u'FAST_31BC'}, {u'rssi': u'-93', u'mac': u'6c:e8:73:6d:9e:5c', u'range': u'108.5'}, {u'rssi': u'-91', u'mac': u'a8:57:4e:3b:c7:20', u'range': u'91.5'}, {u'rssi2': u'-90', u'rssi3': u'-89', u'rssi1': u'-90', u'range': u'91.5', u'mac': u'58:7f:57:d5:37:da', u'rssi': u'-90'}, {u'rssi': u'-86', u'mac': u'd4:a1:48:90:c9:1c', u'range': u'59.7', u'router': u'HUAWEI-DBMK3W'}, {u'rssi': u'-87', u'mac': u'78:a1:06:f3:ed:02', u'range': u'65.0', u'router': u'MERCURY_F3ED02'}, {u'rssi': u'-89', u'mac': u'd8:15:0d:77:b9:82', u'range': u'77.1'}, {u'rssi': u'-73', u'mac': u'e0:4f:bd:c8:45:59', u'range': u'19.7', u'router': u'ChinaNet-t6xh'}, {u'rssi': u'-91', u'mac': u'c8:3a:35:3c:a0:18', u'range': u'91.5'}]
+
+###########
+
+#### ITEM #######
+mac = 24:0a:64:bb:50:fc rssi -48
+mac = 08:57:00:8a:12:0a rssi -52
+mac = 00:b0:0c:0a:0b:48 rssi -78
+mac = c8:e7:d8:18:d5:04 rssi -90
+mac = 00:16:78:3c:d9:44 rssi -77
+mac = 88:25:93:74:65:17 rssi -70
+mac = ec:17:2f:91:83:28 rssi -86
+mac = c0:61:18:a8:31:bc rssi -91
+mac = 6c:e8:73:6d:9e:5c rssi -93
+mac = a8:57:4e:3b:c7:20 rssi -91
+mac = 58:7f:57:d5:37:da rssi -90
+mac = d4:a1:48:90:c9:1c rssi -86
+mac = 78:a1:06:f3:ed:02 rssi -87
+mac = d8:15:0d:77:b9:82 rssi -89
+mac = e0:4f:bd:c8:45:59 rssi -73
+mac = c8:3a:35:3c:a0:18 rssi -91
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 38669)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1646
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:27 2017","data":[{"mac":"70:a8:e3:d7:6e:14","rssi":"-85","range":"54.8"},{"mac":"70:2e:22:bc:6a:00","rssi":"-88","range":"70.8"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-77","range":"27.7"},{"mac":"60:91:f3:bb:64:b5","rssi":"-90","range":"84.0"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-75","rssi1":"-76","rssi2":"-76","range":"25.5"},{"mac":"6c:28:07:c0:1c:ac","rssi":"-95","range":"128.6"},{"mac":"c0:61:18:2d:fa:fa","rssi":"-93","range":"108.5"},{"mac":"b0:95:8e:d4:1f:f4","rssi":"-94","range":"118.1"},{"mac":"08:57:00:95:04:73","rssi":"-74","range":"21.5"},{"mac":"d4:83:04:31:62:20","rssi":"-94","range":"118.1"},{"mac":"28:6c:07:99:c0:66","rssi":"-79","range":"32.9"},{"mac":"d4:83:04:57:56:fc","rssi":"-91","range":"91.5"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-88","rssi1":"-86","range":"59.7"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-78","range":"30.2"},{"mac":"d4:83:04:57:95:4c","rssi":"-94","range":"118.1"},{"mac":"d4:83:04:57:95:b0","rssi":"-95","range":"128.6"},{"mac":"d4:83:04:12:37:9c","rssi":"-92","range":"99.7"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-93","range":"108.5"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-89","range":"77.1"},{"mac":"a8:15:4d:65:31:96","rssi":"-90","range":"84.0","router":"FAST_653196"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-66","range":"10.8"},{"mac":"6c:59:40:80:8b:22","rssi":"-91","range":"91.5"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-76","range":"25.5","router":"mylan"},{"mac":"30:b4:9e:60:82:d3","rssi":"-89","range":"77.1"},{"mac":"9c:21:6a:98:ba:60","rssi":"-83","range":"46.3"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1646
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:27 2017","data":[{"mac":"70:a8:e3:d7:6e:14","rssi":"-85","range":"54.8"},{"mac":"70:2e:22:bc:6a:00","rssi":"-88","range":"70.8"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-77","range":"27.7"},{"mac":"60:91:f3:bb:64:b5","rssi":"-90","range":"84.0"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-75","rssi1":"-76","rssi2":"-76","range":"25.5"},{"mac":"6c:28:07:c0:1c:ac","rssi":"-95","range":"128.6"},{"mac":"c0:61:18:2d:fa:fa","rssi":"-93","range":"108.5"},{"mac":"b0:95:8e:d4:1f:f4","rssi":"-94","range":"118.1"},{"mac":"08:57:00:95:04:73","rssi":"-74","range":"21.5"},{"mac":"d4:83:04:31:62:20","rssi":"-94","range":"118.1"},{"mac":"28:6c:07:99:c0:66","rssi":"-79","range":"32.9"},{"mac":"d4:83:04:57:56:fc","rssi":"-91","range":"91.5"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-88","rssi1":"-86","range":"59.7"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-78","range":"30.2"},{"mac":"d4:83:04:57:95:4c","rssi":"-94","range":"118.1"},{"mac":"d4:83:04:57:95:b0","rssi":"-95","range":"128.6"},{"mac":"d4:83:04:12:37:9c","rssi":"-92","range":"99.7"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-93","range":"108.5"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-89","range":"77.1"},{"mac":"a8:15:4d:65:31:96","rssi":"-90","range":"84.0","router":"FAST_653196"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-66","range":"10.8"},{"mac":"6c:59:40:80:8b:22","rssi":"-91","range":"91.5"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-76","range":"25.5","router":"mylan"},{"mac":"30:b4:9e:60:82:d3","rssi":"-89","range":"77.1"},{"mac":"9c:21:6a:98:ba:60","rssi":"-83","range":"46.3"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:27 2017","data":[{"mac":"70:a8:e3:d7:6e:14","rssi":"-85","range":"54.8"},{"mac":"70:2e:22:bc:6a:00","rssi":"-88","range":"70.8"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-77","range":"27.7"},{"mac":"60:91:f3:bb:64:b5","rssi":"-90","range":"84.0"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-75","rssi1":"-76","rssi2":"-76","range":"25.5"},{"mac":"6c:28:07:c0:1c:ac","rssi":"-95","range":"128.6"},{"mac":"c0:61:18:2d:fa:fa","rssi":"-93","range":"108.5"},{"mac":"b0:95:8e:d4:1f:f4","rssi":"-94","range":"118.1"},{"mac":"08:57:00:95:04:73","rssi":"-74","range":"21.5"},{"mac":"d4:83:04:31:62:20","rssi":"-94","range":"118.1"},{"mac":"28:6c:07:99:c0:66","rssi":"-79","range":"32.9"},{"mac":"d4:83:04:57:56:fc","rssi":"-91","range":"91.5"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-88","rssi1":"-86","range":"59.7"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-78","range":"30.2"},{"mac":"d4:83:04:57:95:4c","rssi":"-94","range":"118.1"},{"mac":"d4:83:04:57:95:b0","rssi":"-95","range":"128.6"},{"mac":"d4:83:04:12:37:9c","rssi":"-92","range":"99.7"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-93","range":"108.5"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-89","range":"77.1"},{"mac":"a8:15:4d:65:31:96","rssi":"-90","range":"84.0","router":"FAST_653196"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-66","range":"10.8"},{"mac":"6c:59:40:80:8b:22","rssi":"-91","range":"91.5"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-76","range":"25.5","router":"mylan"},{"mac":"30:b4:9e:60:82:d3","rssi":"-89","range":"77.1"},{"mac":"9c:21:6a:98:ba:60","rssi":"-83","range":"46.3"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi': u'-85', u'mac': u'70:a8:e3:d7:6e:14', u'range': u'54.8'}, {u'rssi': u'-88', u'mac': u'70:2e:22:bc:6a:00', u'range': u'70.8'}, {u'rssi': u'-77', u'mac': u'b0:95:8e:0a:1d:98', u'range': u'27.7'}, {u'rssi': u'-90', u'mac': u'60:91:f3:bb:64:b5', u'range': u'84.0'}, {u'rssi2': u'-76', u'rssi': u'-75', u'mac': u'b8:f8:83:4d:3f:44', u'rssi1': u'-76', u'range': u'25.5'}, {u'rssi': u'-95', u'mac': u'6c:28:07:c0:1c:ac', u'range': u'128.6'}, {u'rssi': u'-93', u'mac': u'c0:61:18:2d:fa:fa', u'range': u'108.5'}, {u'rssi': u'-94', u'mac': u'b0:95:8e:d4:1f:f4', u'range': u'118.1'}, {u'rssi': u'-74', u'mac': u'08:57:00:95:04:73', u'range': u'21.5'}, {u'rssi': u'-94', u'mac': u'd4:83:04:31:62:20', u'range': u'118.1'}, {u'rssi': u'-79', u'mac': u'28:6c:07:99:c0:66', u'range': u'32.9'}, {u'rssi': u'-91', u'mac': u'd4:83:04:57:56:fc', u'range': u'91.5'}, {u'rssi': u'-88', u'mac': u'd4:83:04:ba:5b:6c', u'rssi1': u'-86', u'range': u'59.7'}, {u'rssi': u'-78', u'mac': u'44:97:5a:a0:9f:5c', u'range': u'30.2'}, {u'rssi': u'-94', u'mac': u'd4:83:04:57:95:4c', u'range': u'118.1'}, {u'rssi': u'-95', u'mac': u'd4:83:04:57:95:b0', u'range': u'128.6'}, {u'rssi': u'-92', u'mac': u'd4:83:04:12:37:9c', u'range': u'99.7'}, {u'rssi': u'-93', u'mac': u'a8:57:4e:9e:04:f6', u'range': u'108.5'}, {u'rssi': u'-89', u'mac': u'c8:3a:35:cd:48:e8', u'range': u'77.1'}, {u'rssi': u'-90', u'mac': u'a8:15:4d:65:31:96', u'range': u'84.0', u'router': u'FAST_653196'}, {u'rssi': u'-66', u'mac': u'f0:b4:29:d4:11:e1', u'range': u'10.8'}, {u'rssi': u'-91', u'mac': u'6c:59:40:80:8b:22', u'range': u'91.5'}, {u'rssi': u'-76', u'mac': u'00:b0:0c:0a:0b:48', u'range': u'25.5', u'router': u'mylan'}, {u'rssi': u'-89', u'mac': u'30:b4:9e:60:82:d3', u'range': u'77.1'}, {u'rssi': u'-83', u'mac': u'9c:21:6a:98:ba:60', u'range': u'46.3'}]
+
+###########
+
+#### ITEM #######
+mac = 70:a8:e3:d7:6e:14 rssi -85
+mac = 70:2e:22:bc:6a:00 rssi -88
+mac = b0:95:8e:0a:1d:98 rssi -77
+mac = 60:91:f3:bb:64:b5 rssi -90
+mac = b8:f8:83:4d:3f:44 rssi -75
+mac = 6c:28:07:c0:1c:ac rssi -95
+mac = c0:61:18:2d:fa:fa rssi -93
+mac = b0:95:8e:d4:1f:f4 rssi -94
+mac = 08:57:00:95:04:73 rssi -74
+mac = d4:83:04:31:62:20 rssi -94
+mac = 28:6c:07:99:c0:66 rssi -79
+mac = d4:83:04:57:56:fc rssi -91
+mac = d4:83:04:ba:5b:6c rssi -88
+mac = 44:97:5a:a0:9f:5c rssi -78
+mac = d4:83:04:57:95:4c rssi -94
+mac = d4:83:04:57:95:b0 rssi -95
+mac = d4:83:04:12:37:9c rssi -92
+mac = a8:57:4e:9e:04:f6 rssi -93
+mac = c8:3a:35:cd:48:e8 rssi -89
+mac = a8:15:4d:65:31:96 rssi -90
+mac = f0:b4:29:d4:11:e1 rssi -66
+mac = 6c:59:40:80:8b:22 rssi -91
+mac = 00:b0:0c:0a:0b:48 rssi -76
+mac = 30:b4:9e:60:82:d3 rssi -89
+mac = 9c:21:6a:98:ba:60 rssi -83
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 19773)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1533
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:28 2017","data":[{"mac":"48:43:7c:e0:0d:8c","rssi":"-65","range":"10.0"},{"mac":"9c:61:21:4f:b1:a9","rssi":"-89","range":"77.1","router":"ChinaNet-Kihm"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","rssi1":"-49","rssi2":"-79","range":"32.9","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-76","range":"25.5","router":"mylan"},{"mac":"c4:36:55:38:cf:d7","rssi":"-81","range":"39.0","router":"360WiFi-38CFD7"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-83","range":"46.3","router":"TP-LINK_FFEC"},{"mac":"00:16:78:3c:d9:44","rssi":"-78","rssi1":"-85","range":"54.8","router":"GAOKE_3cd944"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-63","rssi1":"-71","range":"16.6"},{"mac":"c8:e7:d8:18:d5:04","rssi":"-89","range":"77.1"},{"mac":"78:44:76:f5:a0:92","rssi":"-93","range":"108.5"},{"mac":"98:2f:3c:ea:33:b0","rssi":"-91","range":"91.5","router":"CHANGHONG_EA33B0"},{"mac":"cc:81:da:b0:17:50","rssi":"-91","range":"91.5"},{"mac":"78:a1:06:f3:ed:02","rssi":"-90","rssi1":"-86","range":"59.7","router":"MERCURY_F3ED02"},{"mac":"58:7f:57:d5:37:da","rssi":"-89","rssi1":"-92","rssi2":"-94","rssi3":"-91","range":"91.5"},{"mac":"80:89:17:c2:3b:72","rssi":"-86","range":"59.7","router":"TP-LINK_3B72"},{"mac":"fc:fc:48:ca:17:67","rssi":"-90","rssi1":"-89","range":"77.1","ts":"HUAWEI-DBMK3W","tmc":"d4:a1:48:90:c9:1c","tc":"Y"},{"mac":"88:25:93:74:65:17","rssi":"-69","range":"14.0","router":"Y.S EDU"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1533
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:28 2017","data":[{"mac":"48:43:7c:e0:0d:8c","rssi":"-65","range":"10.0"},{"mac":"9c:61:21:4f:b1:a9","rssi":"-89","range":"77.1","router":"ChinaNet-Kihm"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","rssi1":"-49","rssi2":"-79","range":"32.9","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-76","range":"25.5","router":"mylan"},{"mac":"c4:36:55:38:cf:d7","rssi":"-81","range":"39.0","router":"360WiFi-38CFD7"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-83","range":"46.3","router":"TP-LINK_FFEC"},{"mac":"00:16:78:3c:d9:44","rssi":"-78","rssi1":"-85","range":"54.8","router":"GAOKE_3cd944"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-63","rssi1":"-71","range":"16.6"},{"mac":"c8:e7:d8:18:d5:04","rssi":"-89","range":"77.1"},{"mac":"78:44:76:f5:a0:92","rssi":"-93","range":"108.5"},{"mac":"98:2f:3c:ea:33:b0","rssi":"-91","range":"91.5","router":"CHANGHONG_EA33B0"},{"mac":"cc:81:da:b0:17:50","rssi":"-91","range":"91.5"},{"mac":"78:a1:06:f3:ed:02","rssi":"-90","rssi1":"-86","range":"59.7","router":"MERCURY_F3ED02"},{"mac":"58:7f:57:d5:37:da","rssi":"-89","rssi1":"-92","rssi2":"-94","rssi3":"-91","range":"91.5"},{"mac":"80:89:17:c2:3b:72","rssi":"-86","range":"59.7","router":"TP-LINK_3B72"},{"mac":"fc:fc:48:ca:17:67","rssi":"-90","rssi1":"-89","range":"77.1","ts":"HUAWEI-DBMK3W","tmc":"d4:a1:48:90:c9:1c","tc":"Y"},{"mac":"88:25:93:74:65:17","rssi":"-69","range":"14.0","router":"Y.S EDU"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:28 2017","data":[{"mac":"48:43:7c:e0:0d:8c","rssi":"-65","range":"10.0"},{"mac":"9c:61:21:4f:b1:a9","rssi":"-89","range":"77.1","router":"ChinaNet-Kihm"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","rssi1":"-49","rssi2":"-79","range":"32.9","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-76","range":"25.5","router":"mylan"},{"mac":"c4:36:55:38:cf:d7","rssi":"-81","range":"39.0","router":"360WiFi-38CFD7"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-83","range":"46.3","router":"TP-LINK_FFEC"},{"mac":"00:16:78:3c:d9:44","rssi":"-78","rssi1":"-85","range":"54.8","router":"GAOKE_3cd944"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-63","rssi1":"-71","range":"16.6"},{"mac":"c8:e7:d8:18:d5:04","rssi":"-89","range":"77.1"},{"mac":"78:44:76:f5:a0:92","rssi":"-93","range":"108.5"},{"mac":"98:2f:3c:ea:33:b0","rssi":"-91","range":"91.5","router":"CHANGHONG_EA33B0"},{"mac":"cc:81:da:b0:17:50","rssi":"-91","range":"91.5"},{"mac":"78:a1:06:f3:ed:02","rssi":"-90","rssi1":"-86","range":"59.7","router":"MERCURY_F3ED02"},{"mac":"58:7f:57:d5:37:da","rssi":"-89","rssi1":"-92","rssi2":"-94","rssi3":"-91","range":"91.5"},{"mac":"80:89:17:c2:3b:72","rssi":"-86","range":"59.7","router":"TP-LINK_3B72"},{"mac":"fc:fc:48:ca:17:67","rssi":"-90","rssi1":"-89","range":"77.1","ts":"HUAWEI-DBMK3W","tmc":"d4:a1:48:90:c9:1c","tc":"Y"},{"mac":"88:25:93:74:65:17","rssi":"-69","range":"14.0","router":"Y.S EDU"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi': u'-65', u'mac': u'48:43:7c:e0:0d:8c', u'range': u'10.0'}, {u'rssi': u'-89', u'mac': u'9c:61:21:4f:b1:a9', u'range': u'77.1', u'router': u'ChinaNet-Kihm'}, {u'rssi2': u'-79', u'rssi1': u'-49', u'range': u'32.9', u'mac': u'08:57:00:8a:12:0a', u'router': u'TP-LINK_HyFi_504', u'rssi': u'-50'}, {u'rssi': u'-76', u'mac': u'00:b0:0c:0a:0b:48', u'range': u'25.5', u'router': u'mylan'}, {u'rssi': u'-81', u'mac': u'c4:36:55:38:cf:d7', u'range': u'39.0', u'router': u'360WiFi-38CFD7'}, {u'rssi': u'-83', u'mac': u'fc:d7:33:31:ff:ec', u'range': u'46.3', u'router': u'TP-LINK_FFEC'}, {u'rssi': u'-78', u'mac': u'00:16:78:3c:d9:44', u'rssi1': u'-85', u'range': u'54.8', u'router': u'GAOKE_3cd944'}, {u'rssi': u'-63', u'mac': u'f0:b4:29:d4:11:e1', u'rssi1': u'-71', u'range': u'16.6'}, {u'rssi': u'-89', u'mac': u'c8:e7:d8:18:d5:04', u'range': u'77.1'}, {u'rssi': u'-93', u'mac': u'78:44:76:f5:a0:92', u'range': u'108.5'}, {u'rssi': u'-91', u'mac': u'98:2f:3c:ea:33:b0', u'range': u'91.5', u'router': u'CHANGHONG_EA33B0'}, {u'rssi': u'-91', u'mac': u'cc:81:da:b0:17:50', u'range': u'91.5'}, {u'rssi': u'-90', u'mac': u'78:a1:06:f3:ed:02', u'rssi1': u'-86', u'range': u'59.7', u'router': u'MERCURY_F3ED02'}, {u'rssi2': u'-94', u'rssi3': u'-91', u'rssi1': u'-92', u'range': u'91.5', u'mac': u'58:7f:57:d5:37:da', u'rssi': u'-89'}, {u'rssi': u'-86', u'mac': u'80:89:17:c2:3b:72', u'range': u'59.7', u'router': u'TP-LINK_3B72'}, {u'rssi1': u'-89', u'range': u'77.1', u'ts': u'HUAWEI-DBMK3W', u'mac': u'fc:fc:48:ca:17:67', u'tmc': u'd4:a1:48:90:c9:1c', u'rssi': u'-90', u'tc': u'Y'}, {u'rssi': u'-69', u'mac': u'88:25:93:74:65:17', u'range': u'14.0', u'router': u'Y.S EDU'}]
+
+###########
+
+#### ITEM #######
+mac = 48:43:7c:e0:0d:8c rssi -65
+mac = 9c:61:21:4f:b1:a9 rssi -89
+mac = 08:57:00:8a:12:0a rssi -50
+mac = 00:b0:0c:0a:0b:48 rssi -76
+mac = c4:36:55:38:cf:d7 rssi -81
+mac = fc:d7:33:31:ff:ec rssi -83
+mac = 00:16:78:3c:d9:44 rssi -78
+mac = f0:b4:29:d4:11:e1 rssi -63
+mac = c8:e7:d8:18:d5:04 rssi -89
+mac = 78:44:76:f5:a0:92 rssi -93
+mac = 98:2f:3c:ea:33:b0 rssi -91
+mac = cc:81:da:b0:17:50 rssi -91
+mac = 78:a1:06:f3:ed:02 rssi -90
+mac = 58:7f:57:d5:37:da rssi -89
+mac = 80:89:17:c2:3b:72 rssi -86
+mac = fc:fc:48:ca:17:67 rssi -90
+mac = 88:25:93:74:65:17 rssi -69
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 15030)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1406
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:29 2017","data":[{"mac":"fc:fc:48:ca:17:67","rssi":"-87","rssi1":"-89","range":"77.1","ts":"HUAWEI-DBMK3W","tmc":"d4:a1:48:90:c9:1c","tc":"N"},{"mac":"08:57:00:8a:12:0a","rssi":"-81","range":"39.0","router":"TP-LINK_HyFi_504"},{"mac":"88:25:93:74:65:17","rssi":"-70","range":"15.3","router":"Y.S EDU"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-73","range":"19.7","router":"ChinaNet-t6xh"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-90","range":"84.0"},{"mac":"8c:be:be:28:d1:6f","rssi":"-92","range":"99.7"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-73","rssi1":"-75","range":"23.4"},{"mac":"fc:d7:33:2f:40:b2","rssi":"-89","range":"77.1"},{"mac":"d4:83:04:20:59:3a","rssi":"-89","rssi1":"-92","rssi2":"-90","rssi3":"-90","range":"84.0"},{"mac":"28:6c:07:99:c0:66","rssi":"-84","rssi1":"-87","rssi2":"-78","range":"30.2"},{"mac":"08:57:00:95:04:73","rssi":"-73","rssi1":"-73","range":"19.7"},{"mac":"a4:56:02:9a:de:77","rssi":"-90","range":"84.0"},{"mac":"a8:57:4e:81:af:d4","rssi":"-91","range":"91.5"},{"mac":"d4:83:04:31:62:20","rssi":"-91","range":"91.5"},{"mac":"d4:83:04:57:95:4c","rssi":"-93","range":"108.5"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-88","range":"70.8"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-78","range":"30.2"},{"mac":"74:c3:30:d6:17:aa","rssi":"-91","range":"91.5"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1406
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:29 2017","data":[{"mac":"fc:fc:48:ca:17:67","rssi":"-87","rssi1":"-89","range":"77.1","ts":"HUAWEI-DBMK3W","tmc":"d4:a1:48:90:c9:1c","tc":"N"},{"mac":"08:57:00:8a:12:0a","rssi":"-81","range":"39.0","router":"TP-LINK_HyFi_504"},{"mac":"88:25:93:74:65:17","rssi":"-70","range":"15.3","router":"Y.S EDU"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-73","range":"19.7","router":"ChinaNet-t6xh"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-90","range":"84.0"},{"mac":"8c:be:be:28:d1:6f","rssi":"-92","range":"99.7"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-73","rssi1":"-75","range":"23.4"},{"mac":"fc:d7:33:2f:40:b2","rssi":"-89","range":"77.1"},{"mac":"d4:83:04:20:59:3a","rssi":"-89","rssi1":"-92","rssi2":"-90","rssi3":"-90","range":"84.0"},{"mac":"28:6c:07:99:c0:66","rssi":"-84","rssi1":"-87","rssi2":"-78","range":"30.2"},{"mac":"08:57:00:95:04:73","rssi":"-73","rssi1":"-73","range":"19.7"},{"mac":"a4:56:02:9a:de:77","rssi":"-90","range":"84.0"},{"mac":"a8:57:4e:81:af:d4","rssi":"-91","range":"91.5"},{"mac":"d4:83:04:31:62:20","rssi":"-91","range":"91.5"},{"mac":"d4:83:04:57:95:4c","rssi":"-93","range":"108.5"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-88","range":"70.8"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-78","range":"30.2"},{"mac":"74:c3:30:d6:17:aa","rssi":"-91","range":"91.5"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:29 2017","data":[{"mac":"fc:fc:48:ca:17:67","rssi":"-87","rssi1":"-89","range":"77.1","ts":"HUAWEI-DBMK3W","tmc":"d4:a1:48:90:c9:1c","tc":"N"},{"mac":"08:57:00:8a:12:0a","rssi":"-81","range":"39.0","router":"TP-LINK_HyFi_504"},{"mac":"88:25:93:74:65:17","rssi":"-70","range":"15.3","router":"Y.S EDU"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-73","range":"19.7","router":"ChinaNet-t6xh"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-90","range":"84.0"},{"mac":"8c:be:be:28:d1:6f","rssi":"-92","range":"99.7"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-73","rssi1":"-75","range":"23.4"},{"mac":"fc:d7:33:2f:40:b2","rssi":"-89","range":"77.1"},{"mac":"d4:83:04:20:59:3a","rssi":"-89","rssi1":"-92","rssi2":"-90","rssi3":"-90","range":"84.0"},{"mac":"28:6c:07:99:c0:66","rssi":"-84","rssi1":"-87","rssi2":"-78","range":"30.2"},{"mac":"08:57:00:95:04:73","rssi":"-73","rssi1":"-73","range":"19.7"},{"mac":"a4:56:02:9a:de:77","rssi":"-90","range":"84.0"},{"mac":"a8:57:4e:81:af:d4","rssi":"-91","range":"91.5"},{"mac":"d4:83:04:31:62:20","rssi":"-91","range":"91.5"},{"mac":"d4:83:04:57:95:4c","rssi":"-93","range":"108.5"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-88","range":"70.8"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-78","range":"30.2"},{"mac":"74:c3:30:d6:17:aa","rssi":"-91","range":"91.5"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi1': u'-89', u'range': u'77.1', u'ts': u'HUAWEI-DBMK3W', u'mac': u'fc:fc:48:ca:17:67', u'tmc': u'd4:a1:48:90:c9:1c', u'rssi': u'-87', u'tc': u'N'}, {u'rssi': u'-81', u'mac': u'08:57:00:8a:12:0a', u'range': u'39.0', u'router': u'TP-LINK_HyFi_504'}, {u'rssi': u'-70', u'mac': u'88:25:93:74:65:17', u'range': u'15.3', u'router': u'Y.S EDU'}, {u'rssi': u'-73', u'mac': u'e0:4f:bd:c8:45:59', u'range': u'19.7', u'router': u'ChinaNet-t6xh'}, {u'rssi': u'-90', u'mac': u'70:a8:e3:d7:6e:14', u'range': u'84.0'}, {u'rssi': u'-92', u'mac': u'8c:be:be:28:d1:6f', u'range': u'99.7'}, {u'rssi': u'-73', u'mac': u'b8:f8:83:4d:3f:44', u'rssi1': u'-75', u'range': u'23.4'}, {u'rssi': u'-89', u'mac': u'fc:d7:33:2f:40:b2', u'range': u'77.1'}, {u'rssi2': u'-90', u'rssi3': u'-90', u'rssi1': u'-92', u'range': u'84.0', u'mac': u'd4:83:04:20:59:3a', u'rssi': u'-89'}, {u'rssi2': u'-78', u'rssi': u'-84', u'mac': u'28:6c:07:99:c0:66', u'rssi1': u'-87', u'range': u'30.2'}, {u'rssi': u'-73', u'mac': u'08:57:00:95:04:73', u'rssi1': u'-73', u'range': u'19.7'}, {u'rssi': u'-90', u'mac': u'a4:56:02:9a:de:77', u'range': u'84.0'}, {u'rssi': u'-91', u'mac': u'a8:57:4e:81:af:d4', u'range': u'91.5'}, {u'rssi': u'-91', u'mac': u'd4:83:04:31:62:20', u'range': u'91.5'}, {u'rssi': u'-93', u'mac': u'd4:83:04:57:95:4c', u'range': u'108.5'}, {u'rssi': u'-88', u'mac': u'd4:83:04:ba:5b:6c', u'range': u'70.8'}, {u'rssi': u'-78', u'mac': u'44:97:5a:a0:9f:5c', u'range': u'30.2'}, {u'rssi': u'-91', u'mac': u'74:c3:30:d6:17:aa', u'range': u'91.5'}]
+
+###########
+
+#### ITEM #######
+mac = fc:fc:48:ca:17:67 rssi -87
+mac = 08:57:00:8a:12:0a rssi -81
+mac = 88:25:93:74:65:17 rssi -70
+mac = e0:4f:bd:c8:45:59 rssi -73
+mac = 70:a8:e3:d7:6e:14 rssi -90
+mac = 8c:be:be:28:d1:6f rssi -92
+mac = b8:f8:83:4d:3f:44 rssi -73
+mac = fc:d7:33:2f:40:b2 rssi -89
+mac = d4:83:04:20:59:3a rssi -89
+mac = 28:6c:07:99:c0:66 rssi -84
+mac = 08:57:00:95:04:73 rssi -73
+mac = a4:56:02:9a:de:77 rssi -90
+mac = a8:57:4e:81:af:d4 rssi -91
+mac = d4:83:04:31:62:20 rssi -91
+mac = d4:83:04:57:95:4c rssi -93
+mac = d4:83:04:ba:5b:6c rssi -88
+mac = 44:97:5a:a0:9f:5c rssi -78
+mac = 74:c3:30:d6:17:aa rssi -91
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 27407)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 2374
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:30 2017","data":[{"mac":"4c:49:e3:24:c7:e6","rssi":"-95","range":"128.6"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-91","range":"91.5"},{"mac":"6c:59:40:80:8b:22","rssi":"-89","range":"77.1"},{"mac":"f4:6a:92:51:51:56","rssi":"-89","range":"77.1"},{"mac":"a8:15:4d:65:31:96","rssi":"-87","range":"65.0","router":"FAST_653196"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-65","rssi1":"-67","rssi2":"-63","range":"8.4"},{"mac":"78:44:76:f5:a0:92","rssi":"-83","range":"46.3"},{"mac":"08:57:00:8a:12:0a","rssi":"-52","rssi1":"-80","rssi2":"-79","rssi3":"-80","range":"35.8","router":"TP-LINK_HyFi_504"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-82","range":"42.5","router":"TP-LINK_FFEC"},{"mac":"c4:36:55:38:cf:d7","rssi":"-83","range":"46.3","router":"360WiFi-38CFD7"},{"mac":"00:16:78:3c:d9:44","rssi":"-81","rssi1":"-77","range":"27.7","router":"GAOKE_3cd944"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-75","range":"23.4","router":"mylan"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-69","range":"14.0"},{"mac":"d8:c8:e9:46:b2:48","rssi":"-94","range":"118.1"},{"mac":"cc:81:da:b0:17:50","rssi":"-91","range":"91.5"},{"mac":"60:18:88:13:07:b6","rssi":"-96","range":"140.1","router":"ChinaNet-PdGT"},{"mac":"58:7f:57:d5:37:da","rssi":"-95","range":"128.6"},{"mac":"20:f4:1b:86:9c:3c","rssi":"-90","range":"84.0","router":"B-LINK_869C3C"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-74","rssi1":"-73","range":"19.7","router":"ChinaNet-t6xh"},{"mac":"ec:17:2f:91:83:28","rssi":"-88","range":"70.8","router":"FAST_918328"},{"mac":"00:b0:0c:30:de:d6","rssi":"-88","range":"70.8"},{"mac":"34:96:72:a4:76:7f","rssi":"-94","range":"118.1","router":"铂金时代大茶楼"},{"mac":"78:a1:06:f3:ed:02","rssi":"-90","rssi1":"-91","range":"91.5","router":"MERCURY_F3ED02"},{"mac":"88:25:93:74:65:17","rssi":"-68","rssi1":"-70","range":"15.3","router":"Y.S EDU"},{"mac":"0c:c6:55:45:c3:06","rssi":"-91","range":"91.5","router":"aaaaaaaaaaaaaaaaaaAndroidAP"},{"mac":"8c:a6:df:69:29:f5","rssi":"-90","range":"84.0","router":"TP-LINK_29F5"},{"mac":"d0:c7:c0:67:a5:1c","rssi":"-87","range":"65.0","router":"TP-LINK_A51C"},{"mac":"c8:3a:35:3c:a0:18","rssi":"-95","range":"128.6"},{"mac":"f4:ec:38:12:be:00","rssi":"-89","range":"77.1"},{"mac":"d8:15:0d:77:b9:82","rssi":"-93","range":"108.5"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 2374
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:30 2017","data":[{"mac":"4c:49:e3:24:c7:e6","rssi":"-95","range":"128.6"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-91","range":"91.5"},{"mac":"6c:59:40:80:8b:22","rssi":"-89","range":"77.1"},{"mac":"f4:6a:92:51:51:56","rssi":"-89","range":"77.1"},{"mac":"a8:15:4d:65:31:96","rssi":"-87","range":"65.0","router":"FAST_653196"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-65","rssi1":"-67","rssi2":"-63","range":"8.4"},{"mac":"78:44:76:f5:a0:92","rssi":"-83","range":"46.3"},{"mac":"08:57:00:8a:12:0a","rssi":"-52","rssi1":"-80","rssi2":"-79","rssi3":"-80","range":"35.8","router":"TP-LINK_HyFi_504"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-82","range":"42.5","router":"TP-LINK_FFEC"},{"mac":"c4:36:55:38:cf:d7","rssi":"-83","range":"46.3","router":"360WiFi-38CFD7"},{"mac":"00:16:78:3c:d9:44","rssi":"-81","rssi1":"-77","range":"27.7","router":"GAOKE_3cd944"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-75","range":"23.4","router":"mylan"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-69","range":"14.0"},{"mac":"d8:c8:e9:46:b2:48","rssi":"-94","range":"118.1"},{"mac":"cc:81:da:b0:17:50","rssi":"-91","range":"91.5"},{"mac":"60:18:88:13:07:b6","rssi":"-96","range":"140.1","router":"ChinaNet-PdGT"},{"mac":"58:7f:57:d5:37:da","rssi":"-95","range":"128.6"},{"mac":"20:f4:1b:86:9c:3c","rssi":"-90","range":"84.0","router":"B-LINK_869C3C"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-74","rssi1":"-73","range":"19.7","router":"ChinaNet-t6xh"},{"mac":"ec:17:2f:91:83:28","rssi":"-88","range":"70.8","router":"FAST_918328"},{"mac":"00:b0:0c:30:de:d6","rssi":"-88","range":"70.8"},{"mac":"34:96:72:a4:76:7f","rssi":"-94","range":"118.1","router":"铂金时代大茶楼"},{"mac":"78:a1:06:f3:ed:02","rssi":"-90","rssi1":"-91","range":"91.5","router":"MERCURY_F3ED02"},{"mac":"88:25:93:74:65:17","rssi":"-68","rssi1":"-70","range":"15.3","router":"Y.S EDU"},{"mac":"0c:c6:55:45:c3:06","rssi":"-91","range":"91.5","router":"aaaaaaaaaaaaaaaaaaAndroidAP"},{"mac":"8c:a6:df:69:29:f5","rssi":"-90","range":"84.0","router":"TP-LINK_29F5"},{"mac":"d0:c7:c0:67:a5:1c","rssi":"-87","range":"65.0","router":"TP-LINK_A51C"},{"mac":"c8:3a:35:3c:a0:18","rssi":"-95","range":"128.6"},{"mac":"f4:ec:38:12:be:00","rssi":"-89","range":"77.1"},{"mac":"d8:15:0d:77:b9:82","rssi":"-93","range":"108.5"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:30 2017","data":[{"mac":"4c:49:e3:24:c7:e6","rssi":"-95","range":"128.6"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-91","range":"91.5"},{"mac":"6c:59:40:80:8b:22","rssi":"-89","range":"77.1"},{"mac":"f4:6a:92:51:51:56","rssi":"-89","range":"77.1"},{"mac":"a8:15:4d:65:31:96","rssi":"-87","range":"65.0","router":"FAST_653196"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-65","rssi1":"-67","rssi2":"-63","range":"8.4"},{"mac":"78:44:76:f5:a0:92","rssi":"-83","range":"46.3"},{"mac":"08:57:00:8a:12:0a","rssi":"-52","rssi1":"-80","rssi2":"-79","rssi3":"-80","range":"35.8","router":"TP-LINK_HyFi_504"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-82","range":"42.5","router":"TP-LINK_FFEC"},{"mac":"c4:36:55:38:cf:d7","rssi":"-83","range":"46.3","router":"360WiFi-38CFD7"},{"mac":"00:16:78:3c:d9:44","rssi":"-81","rssi1":"-77","range":"27.7","router":"GAOKE_3cd944"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-75","range":"23.4","router":"mylan"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-69","range":"14.0"},{"mac":"d8:c8:e9:46:b2:48","rssi":"-94","range":"118.1"},{"mac":"cc:81:da:b0:17:50","rssi":"-91","range":"91.5"},{"mac":"60:18:88:13:07:b6","rssi":"-96","range":"140.1","router":"ChinaNet-PdGT"},{"mac":"58:7f:57:d5:37:da","rssi":"-95","range":"128.6"},{"mac":"20:f4:1b:86:9c:3c","rssi":"-90","range":"84.0","router":"B-LINK_869C3C"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-74","rssi1":"-73","range":"19.7","router":"ChinaNet-t6xh"},{"mac":"ec:17:2f:91:83:28","rssi":"-88","range":"70.8","router":"FAST_918328"},{"mac":"00:b0:0c:30:de:d6","rssi":"-88","range":"70.8"},{"mac":"34:96:72:a4:76:7f","rssi":"-94","range":"118.1","router":"铂金时代大茶楼"},{"mac":"78:a1:06:f3:ed:02","rssi":"-90","rssi1":"-91","range":"91.5","router":"MERCURY_F3ED02"},{"mac":"88:25:93:74:65:17","rssi":"-68","rssi1":"-70","range":"15.3","router":"Y.S EDU"},{"mac":"0c:c6:55:45:c3:06","rssi":"-91","range":"91.5","router":"aaaaaaaaaaaaaaaaaaAndroidAP"},{"mac":"8c:a6:df:69:29:f5","rssi":"-90","range":"84.0","router":"TP-LINK_29F5"},{"mac":"d0:c7:c0:67:a5:1c","rssi":"-87","range":"65.0","router":"TP-LINK_A51C"},{"mac":"c8:3a:35:3c:a0:18","rssi":"-95","range":"128.6"},{"mac":"f4:ec:38:12:be:00","rssi":"-89","range":"77.1"},{"mac":"d8:15:0d:77:b9:82","rssi":"-93","range":"108.5"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi': u'-95', u'mac': u'4c:49:e3:24:c7:e6', u'range': u'128.6'}, {u'rssi': u'-91', u'mac': u'c8:3a:35:cd:48:e8', u'range': u'91.5'}, {u'rssi': u'-89', u'mac': u'6c:59:40:80:8b:22', u'range': u'77.1'}, {u'rssi': u'-89', u'mac': u'f4:6a:92:51:51:56', u'range': u'77.1'}, {u'rssi': u'-87', u'mac': u'a8:15:4d:65:31:96', u'range': u'65.0', u'router': u'FAST_653196'}, {u'rssi2': u'-63', u'rssi': u'-65', u'mac': u'f0:b4:29:d4:11:e1', u'rssi1': u'-67', u'range': u'8.4'}, {u'rssi': u'-83', u'mac': u'78:44:76:f5:a0:92', u'range': u'46.3'}, {u'rssi2': u'-79', u'rssi3': u'-80', u'rssi1': u'-80', u'range': u'35.8', u'mac': u'08:57:00:8a:12:0a', u'router': u'TP-LINK_HyFi_504', u'rssi': u'-52'}, {u'rssi': u'-82', u'mac': u'fc:d7:33:31:ff:ec', u'range': u'42.5', u'router': u'TP-LINK_FFEC'}, {u'rssi': u'-83', u'mac': u'c4:36:55:38:cf:d7', u'range': u'46.3', u'router': u'360WiFi-38CFD7'}, {u'rssi': u'-81', u'mac': u'00:16:78:3c:d9:44', u'rssi1': u'-77', u'range': u'27.7', u'router': u'GAOKE_3cd944'}, {u'rssi': u'-75', u'mac': u'00:b0:0c:0a:0b:48', u'range': u'23.4', u'router': u'mylan'}, {u'rssi': u'-69', u'mac': u'48:43:7c:e0:0d:8c', u'range': u'14.0'}, {u'rssi': u'-94', u'mac': u'd8:c8:e9:46:b2:48', u'range': u'118.1'}, {u'rssi': u'-91', u'mac': u'cc:81:da:b0:17:50', u'range': u'91.5'}, {u'rssi': u'-96', u'mac': u'60:18:88:13:07:b6', u'range': u'140.1', u'router': u'ChinaNet-PdGT'}, {u'rssi': u'-95', u'mac': u'58:7f:57:d5:37:da', u'range': u'128.6'}, {u'rssi': u'-90', u'mac': u'20:f4:1b:86:9c:3c', u'range': u'84.0', u'router': u'B-LINK_869C3C'}, {u'rssi': u'-74', u'mac': u'e0:4f:bd:c8:45:59', u'rssi1': u'-73', u'range': u'19.7', u'router': u'ChinaNet-t6xh'}, {u'rssi': u'-88', u'mac': u'ec:17:2f:91:83:28', u'range': u'70.8', u'router': u'FAST_918328'}, {u'rssi': u'-88', u'mac': u'00:b0:0c:30:de:d6', u'range': u'70.8'}, {u'rssi': u'-94', u'mac': u'34:96:72:a4:76:7f', u'range': u'118.1', u'router': u'\u94c2\u91d1\u65f6\u4ee3\u5927\u8336\u697c'}, {u'rssi': u'-90', u'mac': u'78:a1:06:f3:ed:02', u'rssi1': u'-91', u'range': u'91.5', u'router': u'MERCURY_F3ED02'}, {u'rssi': u'-68', u'mac': u'88:25:93:74:65:17', u'rssi1': u'-70', u'range': u'15.3', u'router': u'Y.S EDU'}, {u'rssi': u'-91', u'mac': u'0c:c6:55:45:c3:06', u'range': u'91.5', u'router': u'aaaaaaaaaaaaaaaaaaAndroidAP'}, {u'rssi': u'-90', u'mac': u'8c:a6:df:69:29:f5', u'range': u'84.0', u'router': u'TP-LINK_29F5'}, {u'rssi': u'-87', u'mac': u'd0:c7:c0:67:a5:1c', u'range': u'65.0', u'router': u'TP-LINK_A51C'}, {u'rssi': u'-95', u'mac': u'c8:3a:35:3c:a0:18', u'range': u'128.6'}, {u'rssi': u'-89', u'mac': u'f4:ec:38:12:be:00', u'range': u'77.1'}, {u'rssi': u'-93', u'mac': u'd8:15:0d:77:b9:82', u'range': u'108.5'}]
+
+###########
+
+#### ITEM #######
+mac = 4c:49:e3:24:c7:e6 rssi -95
+mac = c8:3a:35:cd:48:e8 rssi -91
+mac = 6c:59:40:80:8b:22 rssi -89
+mac = f4:6a:92:51:51:56 rssi -89
+mac = a8:15:4d:65:31:96 rssi -87
+mac = f0:b4:29:d4:11:e1 rssi -65
+mac = 78:44:76:f5:a0:92 rssi -83
+mac = 08:57:00:8a:12:0a rssi -52
+mac = fc:d7:33:31:ff:ec rssi -82
+mac = c4:36:55:38:cf:d7 rssi -83
+mac = 00:16:78:3c:d9:44 rssi -81
+mac = 00:b0:0c:0a:0b:48 rssi -75
+mac = 48:43:7c:e0:0d:8c rssi -69
+mac = d8:c8:e9:46:b2:48 rssi -94
+mac = cc:81:da:b0:17:50 rssi -91
+mac = 60:18:88:13:07:b6 rssi -96
+mac = 58:7f:57:d5:37:da rssi -95
+mac = 20:f4:1b:86:9c:3c rssi -90
+mac = e0:4f:bd:c8:45:59 rssi -74
+mac = ec:17:2f:91:83:28 rssi -88
+mac = 00:b0:0c:30:de:d6 rssi -88
+mac = 34:96:72:a4:76:7f rssi -94
+mac = 78:a1:06:f3:ed:02 rssi -90
+mac = 88:25:93:74:65:17 rssi -68
+mac = 0c:c6:55:45:c3:06 rssi -91
+mac = 8c:a6:df:69:29:f5 rssi -90
+mac = d0:c7:c0:67:a5:1c rssi -87
+mac = c8:3a:35:3c:a0:18 rssi -95
+mac = f4:ec:38:12:be:00 rssi -89
+mac = d8:15:0d:77:b9:82 rssi -93
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 42916)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1163
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:32 2017","data":[{"mac":"b8:f8:83:4d:3f:44","rssi":"-75","range":"23.4"},{"mac":"d4:83:04:31:62:20","rssi":"-92","range":"99.7"},{"mac":"d4:83:04:57:95:4c","rssi":"-93","range":"108.5"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-88","range":"70.8"},{"mac":"08:57:00:95:04:73","rssi":"-75","range":"23.4"},{"mac":"74:c3:30:d6:17:aa","rssi":"-91","range":"91.5"},{"mac":"44:97:5a:d5:8d:a2","rssi":"-92","range":"99.7"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-92","range":"99.7"},{"mac":"24:0a:64:bb:50:fc","rssi":"-51","range":"3.0"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-63","rssi1":"-67","range":"11.8"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-67","range":"11.8"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-84","range":"50.4","router":"TP-LINK_FFEC"},{"mac":"9c:21:6a:98:ba:60","rssi":"-85","range":"54.8"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","range":"2.7","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-79","range":"32.9","router":"mylan"},{"mac":"98:2f:3c:ea:33:b0","rssi":"-90","range":"84.0","router":"CHANGHONG_EA33B0"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1163
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:32 2017","data":[{"mac":"b8:f8:83:4d:3f:44","rssi":"-75","range":"23.4"},{"mac":"d4:83:04:31:62:20","rssi":"-92","range":"99.7"},{"mac":"d4:83:04:57:95:4c","rssi":"-93","range":"108.5"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-88","range":"70.8"},{"mac":"08:57:00:95:04:73","rssi":"-75","range":"23.4"},{"mac":"74:c3:30:d6:17:aa","rssi":"-91","range":"91.5"},{"mac":"44:97:5a:d5:8d:a2","rssi":"-92","range":"99.7"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-92","range":"99.7"},{"mac":"24:0a:64:bb:50:fc","rssi":"-51","range":"3.0"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-63","rssi1":"-67","range":"11.8"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-67","range":"11.8"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-84","range":"50.4","router":"TP-LINK_FFEC"},{"mac":"9c:21:6a:98:ba:60","rssi":"-85","range":"54.8"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","range":"2.7","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-79","range":"32.9","router":"mylan"},{"mac":"98:2f:3c:ea:33:b0","rssi":"-90","range":"84.0","router":"CHANGHONG_EA33B0"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:32 2017","data":[{"mac":"b8:f8:83:4d:3f:44","rssi":"-75","range":"23.4"},{"mac":"d4:83:04:31:62:20","rssi":"-92","range":"99.7"},{"mac":"d4:83:04:57:95:4c","rssi":"-93","range":"108.5"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-88","range":"70.8"},{"mac":"08:57:00:95:04:73","rssi":"-75","range":"23.4"},{"mac":"74:c3:30:d6:17:aa","rssi":"-91","range":"91.5"},{"mac":"44:97:5a:d5:8d:a2","rssi":"-92","range":"99.7"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-92","range":"99.7"},{"mac":"24:0a:64:bb:50:fc","rssi":"-51","range":"3.0"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-63","rssi1":"-67","range":"11.8"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-67","range":"11.8"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-84","range":"50.4","router":"TP-LINK_FFEC"},{"mac":"9c:21:6a:98:ba:60","rssi":"-85","range":"54.8"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","range":"2.7","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-79","range":"32.9","router":"mylan"},{"mac":"98:2f:3c:ea:33:b0","rssi":"-90","range":"84.0","router":"CHANGHONG_EA33B0"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi': u'-75', u'mac': u'b8:f8:83:4d:3f:44', u'range': u'23.4'}, {u'rssi': u'-92', u'mac': u'd4:83:04:31:62:20', u'range': u'99.7'}, {u'rssi': u'-93', u'mac': u'd4:83:04:57:95:4c', u'range': u'108.5'}, {u'rssi': u'-88', u'mac': u'd4:83:04:ba:5b:6c', u'range': u'70.8'}, {u'rssi': u'-75', u'mac': u'08:57:00:95:04:73', u'range': u'23.4'}, {u'rssi': u'-91', u'mac': u'74:c3:30:d6:17:aa', u'range': u'91.5'}, {u'rssi': u'-92', u'mac': u'44:97:5a:d5:8d:a2', u'range': u'99.7'}, {u'rssi': u'-92', u'mac': u'c8:3a:35:cd:48:e8', u'range': u'99.7'}, {u'rssi': u'-51', u'mac': u'24:0a:64:bb:50:fc', u'range': u'3.0'}, {u'rssi': u'-63', u'mac': u'f0:b4:29:d4:11:e1', u'rssi1': u'-67', u'range': u'11.8'}, {u'rssi': u'-67', u'mac': u'48:43:7c:e0:0d:8c', u'range': u'11.8'}, {u'rssi': u'-84', u'mac': u'fc:d7:33:31:ff:ec', u'range': u'50.4', u'router': u'TP-LINK_FFEC'}, {u'rssi': u'-85', u'mac': u'9c:21:6a:98:ba:60', u'range': u'54.8'}, {u'rssi': u'-50', u'mac': u'08:57:00:8a:12:0a', u'range': u'2.7', u'router': u'TP-LINK_HyFi_504'}, {u'rssi': u'-79', u'mac': u'00:b0:0c:0a:0b:48', u'range': u'32.9', u'router': u'mylan'}, {u'rssi': u'-90', u'mac': u'98:2f:3c:ea:33:b0', u'range': u'84.0', u'router': u'CHANGHONG_EA33B0'}]
+
+###########
+
+#### ITEM #######
+mac = b8:f8:83:4d:3f:44 rssi -75
+mac = d4:83:04:31:62:20 rssi -92
+mac = d4:83:04:57:95:4c rssi -93
+mac = d4:83:04:ba:5b:6c rssi -88
+mac = 08:57:00:95:04:73 rssi -75
+mac = 74:c3:30:d6:17:aa rssi -91
+mac = 44:97:5a:d5:8d:a2 rssi -92
+mac = c8:3a:35:cd:48:e8 rssi -92
+mac = 24:0a:64:bb:50:fc rssi -51
+mac = f0:b4:29:d4:11:e1 rssi -63
+mac = 48:43:7c:e0:0d:8c rssi -67
+mac = fc:d7:33:31:ff:ec rssi -84
+mac = 9c:21:6a:98:ba:60 rssi -85
+mac = 08:57:00:8a:12:0a rssi -50
+mac = 00:b0:0c:0a:0b:48 rssi -79
+mac = 98:2f:3c:ea:33:b0 rssi -90
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 45581)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1481
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:33 2017","data":[{"mac":"ec:38:8f:8c:d8:a4","rssi":"-93","range":"108.5","router":"ChinaNet-i5yg"},{"mac":"80:89:17:c2:3b:72","rssi":"-89","range":"77.1","router":"TP-LINK_3B72"},{"mac":"88:25:93:74:65:17","rssi":"-69","rssi1":"-70","rssi2":"-67","rssi3":"-67","range":"18.1","router":"Y.S EDU"},{"mac":"58:7f:57:d5:37:da","rssi":"-87","rssi1":"-88","rssi2":"-88","rssi3":"-89","range":"99.7"},{"mac":"0c:c6:55:45:c3:06","rssi":"-91","range":"91.5","router":"aaaaaaaaaaaaaaaaaaAndroidAP"},{"mac":"5c:63:bf:f9:50:72","rssi":"-93","range":"108.5"},{"mac":"d4:a1:48:90:c9:1c","rssi":"-90","range":"84.0","router":"HUAWEI-DBMK3W"},{"mac":"78:a1:06:f3:ed:02","rssi":"-91","range":"91.5","router":"MERCURY_F3ED02"},{"mac":"d0:c7:c0:92:56:5a","rssi":"-90","range":"84.0","router":"FAST_565A"},{"mac":"ec:26:ca:ed:01:c0","rssi":"-88","range":"70.8"},{"mac":"ec:17:2f:91:83:28","rssi":"-88","range":"70.8","router":"FAST_918328"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-74","range":"21.5","router":"ChinaNet-t6xh"},{"mac":"c8:3a:35:3c:a0:18","rssi":"-92","range":"99.7"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-88","range":"70.8"},{"mac":"d4:a1:48:b0:09:83","rssi":"-80","range":"35.8","ts":"Y.S EDU","tmc":"88:25:93:74:65:17","tc":"Y","ds":"Y"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-86","range":"59.7"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-78","range":"30.2"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1481
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:33 2017","data":[{"mac":"ec:38:8f:8c:d8:a4","rssi":"-93","range":"108.5","router":"ChinaNet-i5yg"},{"mac":"80:89:17:c2:3b:72","rssi":"-89","range":"77.1","router":"TP-LINK_3B72"},{"mac":"88:25:93:74:65:17","rssi":"-69","rssi1":"-70","rssi2":"-67","rssi3":"-67","range":"18.1","router":"Y.S EDU"},{"mac":"58:7f:57:d5:37:da","rssi":"-87","rssi1":"-88","rssi2":"-88","rssi3":"-89","range":"99.7"},{"mac":"0c:c6:55:45:c3:06","rssi":"-91","range":"91.5","router":"aaaaaaaaaaaaaaaaaaAndroidAP"},{"mac":"5c:63:bf:f9:50:72","rssi":"-93","range":"108.5"},{"mac":"d4:a1:48:90:c9:1c","rssi":"-90","range":"84.0","router":"HUAWEI-DBMK3W"},{"mac":"78:a1:06:f3:ed:02","rssi":"-91","range":"91.5","router":"MERCURY_F3ED02"},{"mac":"d0:c7:c0:92:56:5a","rssi":"-90","range":"84.0","router":"FAST_565A"},{"mac":"ec:26:ca:ed:01:c0","rssi":"-88","range":"70.8"},{"mac":"ec:17:2f:91:83:28","rssi":"-88","range":"70.8","router":"FAST_918328"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-74","range":"21.5","router":"ChinaNet-t6xh"},{"mac":"c8:3a:35:3c:a0:18","rssi":"-92","range":"99.7"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-88","range":"70.8"},{"mac":"d4:a1:48:b0:09:83","rssi":"-80","range":"35.8","ts":"Y.S EDU","tmc":"88:25:93:74:65:17","tc":"Y","ds":"Y"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-86","range":"59.7"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-78","range":"30.2"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:33 2017","data":[{"mac":"ec:38:8f:8c:d8:a4","rssi":"-93","range":"108.5","router":"ChinaNet-i5yg"},{"mac":"80:89:17:c2:3b:72","rssi":"-89","range":"77.1","router":"TP-LINK_3B72"},{"mac":"88:25:93:74:65:17","rssi":"-69","rssi1":"-70","rssi2":"-67","rssi3":"-67","range":"18.1","router":"Y.S EDU"},{"mac":"58:7f:57:d5:37:da","rssi":"-87","rssi1":"-88","rssi2":"-88","rssi3":"-89","range":"99.7"},{"mac":"0c:c6:55:45:c3:06","rssi":"-91","range":"91.5","router":"aaaaaaaaaaaaaaaaaaAndroidAP"},{"mac":"5c:63:bf:f9:50:72","rssi":"-93","range":"108.5"},{"mac":"d4:a1:48:90:c9:1c","rssi":"-90","range":"84.0","router":"HUAWEI-DBMK3W"},{"mac":"78:a1:06:f3:ed:02","rssi":"-91","range":"91.5","router":"MERCURY_F3ED02"},{"mac":"d0:c7:c0:92:56:5a","rssi":"-90","range":"84.0","router":"FAST_565A"},{"mac":"ec:26:ca:ed:01:c0","rssi":"-88","range":"70.8"},{"mac":"ec:17:2f:91:83:28","rssi":"-88","range":"70.8","router":"FAST_918328"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-74","range":"21.5","router":"ChinaNet-t6xh"},{"mac":"c8:3a:35:3c:a0:18","rssi":"-92","range":"99.7"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-88","range":"70.8"},{"mac":"d4:a1:48:b0:09:83","rssi":"-80","range":"35.8","ts":"Y.S EDU","tmc":"88:25:93:74:65:17","tc":"Y","ds":"Y"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-86","range":"59.7"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-78","range":"30.2"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi': u'-93', u'mac': u'ec:38:8f:8c:d8:a4', u'range': u'108.5', u'router': u'ChinaNet-i5yg'}, {u'rssi': u'-89', u'mac': u'80:89:17:c2:3b:72', u'range': u'77.1', u'router': u'TP-LINK_3B72'}, {u'rssi2': u'-67', u'rssi3': u'-67', u'rssi1': u'-70', u'range': u'18.1', u'mac': u'88:25:93:74:65:17', u'router': u'Y.S EDU', u'rssi': u'-69'}, {u'rssi2': u'-88', u'rssi3': u'-89', u'rssi1': u'-88', u'range': u'99.7', u'mac': u'58:7f:57:d5:37:da', u'rssi': u'-87'}, {u'rssi': u'-91', u'mac': u'0c:c6:55:45:c3:06', u'range': u'91.5', u'router': u'aaaaaaaaaaaaaaaaaaAndroidAP'}, {u'rssi': u'-93', u'mac': u'5c:63:bf:f9:50:72', u'range': u'108.5'}, {u'rssi': u'-90', u'mac': u'd4:a1:48:90:c9:1c', u'range': u'84.0', u'router': u'HUAWEI-DBMK3W'}, {u'rssi': u'-91', u'mac': u'78:a1:06:f3:ed:02', u'range': u'91.5', u'router': u'MERCURY_F3ED02'}, {u'rssi': u'-90', u'mac': u'd0:c7:c0:92:56:5a', u'range': u'84.0', u'router': u'FAST_565A'}, {u'rssi': u'-88', u'mac': u'ec:26:ca:ed:01:c0', u'range': u'70.8'}, {u'rssi': u'-88', u'mac': u'ec:17:2f:91:83:28', u'range': u'70.8', u'router': u'FAST_918328'}, {u'rssi': u'-74', u'mac': u'e0:4f:bd:c8:45:59', u'range': u'21.5', u'router': u'ChinaNet-t6xh'}, {u'rssi': u'-92', u'mac': u'c8:3a:35:3c:a0:18', u'range': u'99.7'}, {u'rssi': u'-88', u'mac': u'70:a8:e3:d7:6e:14', u'range': u'70.8'}, {u'range': u'35.8', u'ds': u'Y', u'ts': u'Y.S EDU', u'mac': u'd4:a1:48:b0:09:83', u'tmc': u'88:25:93:74:65:17', u'rssi': u'-80', u'tc': u'Y'}, {u'rssi': u'-86', u'mac': u'c8:3a:35:2d:32:d8', u'range': u'59.7'}, {u'rssi': u'-78', u'mac': u'b0:95:8e:0a:1d:98', u'range': u'30.2'}]
+
+###########
+
+#### ITEM #######
+mac = ec:38:8f:8c:d8:a4 rssi -93
+mac = 80:89:17:c2:3b:72 rssi -89
+mac = 88:25:93:74:65:17 rssi -69
+mac = 58:7f:57:d5:37:da rssi -87
+mac = 0c:c6:55:45:c3:06 rssi -91
+mac = 5c:63:bf:f9:50:72 rssi -93
+mac = d4:a1:48:90:c9:1c rssi -90
+mac = 78:a1:06:f3:ed:02 rssi -91
+mac = d0:c7:c0:92:56:5a rssi -90
+mac = ec:26:ca:ed:01:c0 rssi -88
+mac = ec:17:2f:91:83:28 rssi -88
+mac = e0:4f:bd:c8:45:59 rssi -74
+mac = c8:3a:35:3c:a0:18 rssi -92
+mac = 70:a8:e3:d7:6e:14 rssi -88
+mac = d4:a1:48:b0:09:83 rssi -80
+mac = c8:3a:35:2d:32:d8 rssi -86
+mac = b0:95:8e:0a:1d:98 rssi -78
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 19897)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1687
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:34 2017","data":[{"mac":"70:2e:22:bc:6a:00","rssi":"-84","range":"50.4"},{"mac":"6c:28:07:c0:1c:ac","rssi":"-91","range":"91.5"},{"mac":"34:97:f6:61:3c:80","rssi":"-92","range":"99.7"},{"mac":"44:97:5a:a1:f1:56","rssi":"-95","range":"128.6"},{"mac":"d4:83:04:20:59:3a","rssi":"-89","range":"77.1"},{"mac":"a8:57:4e:81:af:d4","rssi":"-88","range":"70.8"},{"mac":"28:6c:07:99:c0:66","rssi":"-85","rssi1":"-79","range":"32.9"},{"mac":"08:57:00:95:04:73","rssi":"-78","rssi1":"-76","range":"25.5"},{"mac":"a4:56:02:9a:de:77","rssi":"-90","range":"84.0"},{"mac":"d4:83:04:31:62:20","rssi":"-90","range":"84.0"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-74","range":"21.5"},{"mac":"60:18:88:12:cf:37","rssi":"-86","range":"59.7"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-81","range":"39.0"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-79","range":"32.9"},{"mac":"d4:83:04:57:95:4c","rssi":"-92","range":"99.7"},{"mac":"4c:49:e3:24:c7:e6","rssi":"-90","range":"84.0"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-92","range":"99.7"},{"mac":"6c:59:40:3b:4c:ee","rssi":"-94","range":"118.1"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-65","range":"10.0"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-62","range":"7.7"},{"mac":"8e:d7:33:b1:69:78","rssi":"-94","range":"118.1"},{"mac":"f4:6a:92:51:51:56","rssi":"-88","range":"70.8"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","range":"2.7","router":"TP-LINK_HyFi_504"},{"mac":"0c:72:2c:27:99:1c","rssi":"-91","range":"91.5"},{"mac":"78:44:76:f5:a0:92","rssi":"-89","range":"77.1"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-74","range":"21.5","router":"mylan"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1687
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:34 2017","data":[{"mac":"70:2e:22:bc:6a:00","rssi":"-84","range":"50.4"},{"mac":"6c:28:07:c0:1c:ac","rssi":"-91","range":"91.5"},{"mac":"34:97:f6:61:3c:80","rssi":"-92","range":"99.7"},{"mac":"44:97:5a:a1:f1:56","rssi":"-95","range":"128.6"},{"mac":"d4:83:04:20:59:3a","rssi":"-89","range":"77.1"},{"mac":"a8:57:4e:81:af:d4","rssi":"-88","range":"70.8"},{"mac":"28:6c:07:99:c0:66","rssi":"-85","rssi1":"-79","range":"32.9"},{"mac":"08:57:00:95:04:73","rssi":"-78","rssi1":"-76","range":"25.5"},{"mac":"a4:56:02:9a:de:77","rssi":"-90","range":"84.0"},{"mac":"d4:83:04:31:62:20","rssi":"-90","range":"84.0"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-74","range":"21.5"},{"mac":"60:18:88:12:cf:37","rssi":"-86","range":"59.7"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-81","range":"39.0"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-79","range":"32.9"},{"mac":"d4:83:04:57:95:4c","rssi":"-92","range":"99.7"},{"mac":"4c:49:e3:24:c7:e6","rssi":"-90","range":"84.0"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-92","range":"99.7"},{"mac":"6c:59:40:3b:4c:ee","rssi":"-94","range":"118.1"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-65","range":"10.0"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-62","range":"7.7"},{"mac":"8e:d7:33:b1:69:78","rssi":"-94","range":"118.1"},{"mac":"f4:6a:92:51:51:56","rssi":"-88","range":"70.8"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","range":"2.7","router":"TP-LINK_HyFi_504"},{"mac":"0c:72:2c:27:99:1c","rssi":"-91","range":"91.5"},{"mac":"78:44:76:f5:a0:92","rssi":"-89","range":"77.1"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-74","range":"21.5","router":"mylan"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:34 2017","data":[{"mac":"70:2e:22:bc:6a:00","rssi":"-84","range":"50.4"},{"mac":"6c:28:07:c0:1c:ac","rssi":"-91","range":"91.5"},{"mac":"34:97:f6:61:3c:80","rssi":"-92","range":"99.7"},{"mac":"44:97:5a:a1:f1:56","rssi":"-95","range":"128.6"},{"mac":"d4:83:04:20:59:3a","rssi":"-89","range":"77.1"},{"mac":"a8:57:4e:81:af:d4","rssi":"-88","range":"70.8"},{"mac":"28:6c:07:99:c0:66","rssi":"-85","rssi1":"-79","range":"32.9"},{"mac":"08:57:00:95:04:73","rssi":"-78","rssi1":"-76","range":"25.5"},{"mac":"a4:56:02:9a:de:77","rssi":"-90","range":"84.0"},{"mac":"d4:83:04:31:62:20","rssi":"-90","range":"84.0"},{"mac":"b8:f8:83:4d:3f:44","rssi":"-74","range":"21.5"},{"mac":"60:18:88:12:cf:37","rssi":"-86","range":"59.7"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-81","range":"39.0"},{"mac":"b0:95:8e:0a:1d:98","rssi":"-79","range":"32.9"},{"mac":"d4:83:04:57:95:4c","rssi":"-92","range":"99.7"},{"mac":"4c:49:e3:24:c7:e6","rssi":"-90","range":"84.0"},{"mac":"c8:3a:35:cd:48:e8","rssi":"-92","range":"99.7"},{"mac":"6c:59:40:3b:4c:ee","rssi":"-94","range":"118.1"},{"mac":"48:43:7c:e0:0d:8c","rssi":"-65","range":"10.0"},{"mac":"f0:b4:29:d4:11:e1","rssi":"-62","range":"7.7"},{"mac":"8e:d7:33:b1:69:78","rssi":"-94","range":"118.1"},{"mac":"f4:6a:92:51:51:56","rssi":"-88","range":"70.8"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","range":"2.7","router":"TP-LINK_HyFi_504"},{"mac":"0c:72:2c:27:99:1c","rssi":"-91","range":"91.5"},{"mac":"78:44:76:f5:a0:92","rssi":"-89","range":"77.1"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-74","range":"21.5","router":"mylan"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi': u'-84', u'mac': u'70:2e:22:bc:6a:00', u'range': u'50.4'}, {u'rssi': u'-91', u'mac': u'6c:28:07:c0:1c:ac', u'range': u'91.5'}, {u'rssi': u'-92', u'mac': u'34:97:f6:61:3c:80', u'range': u'99.7'}, {u'rssi': u'-95', u'mac': u'44:97:5a:a1:f1:56', u'range': u'128.6'}, {u'rssi': u'-89', u'mac': u'd4:83:04:20:59:3a', u'range': u'77.1'}, {u'rssi': u'-88', u'mac': u'a8:57:4e:81:af:d4', u'range': u'70.8'}, {u'rssi': u'-85', u'mac': u'28:6c:07:99:c0:66', u'rssi1': u'-79', u'range': u'32.9'}, {u'rssi': u'-78', u'mac': u'08:57:00:95:04:73', u'rssi1': u'-76', u'range': u'25.5'}, {u'rssi': u'-90', u'mac': u'a4:56:02:9a:de:77', u'range': u'84.0'}, {u'rssi': u'-90', u'mac': u'd4:83:04:31:62:20', u'range': u'84.0'}, {u'rssi': u'-74', u'mac': u'b8:f8:83:4d:3f:44', u'range': u'21.5'}, {u'rssi': u'-86', u'mac': u'60:18:88:12:cf:37', u'range': u'59.7'}, {u'rssi': u'-81', u'mac': u'44:97:5a:a0:9f:5c', u'range': u'39.0'}, {u'rssi': u'-79', u'mac': u'b0:95:8e:0a:1d:98', u'range': u'32.9'}, {u'rssi': u'-92', u'mac': u'd4:83:04:57:95:4c', u'range': u'99.7'}, {u'rssi': u'-90', u'mac': u'4c:49:e3:24:c7:e6', u'range': u'84.0'}, {u'rssi': u'-92', u'mac': u'c8:3a:35:cd:48:e8', u'range': u'99.7'}, {u'rssi': u'-94', u'mac': u'6c:59:40:3b:4c:ee', u'range': u'118.1'}, {u'rssi': u'-65', u'mac': u'48:43:7c:e0:0d:8c', u'range': u'10.0'}, {u'rssi': u'-62', u'mac': u'f0:b4:29:d4:11:e1', u'range': u'7.7'}, {u'rssi': u'-94', u'mac': u'8e:d7:33:b1:69:78', u'range': u'118.1'}, {u'rssi': u'-88', u'mac': u'f4:6a:92:51:51:56', u'range': u'70.8'}, {u'rssi': u'-50', u'mac': u'08:57:00:8a:12:0a', u'range': u'2.7', u'router': u'TP-LINK_HyFi_504'}, {u'rssi': u'-91', u'mac': u'0c:72:2c:27:99:1c', u'range': u'91.5'}, {u'rssi': u'-89', u'mac': u'78:44:76:f5:a0:92', u'range': u'77.1'}, {u'rssi': u'-74', u'mac': u'00:b0:0c:0a:0b:48', u'range': u'21.5', u'router': u'mylan'}]
+
+###########
+
+#### ITEM #######
+mac = 70:2e:22:bc:6a:00 rssi -84
+mac = 6c:28:07:c0:1c:ac rssi -91
+mac = 34:97:f6:61:3c:80 rssi -92
+mac = 44:97:5a:a1:f1:56 rssi -95
+mac = d4:83:04:20:59:3a rssi -89
+mac = a8:57:4e:81:af:d4 rssi -88
+mac = 28:6c:07:99:c0:66 rssi -85
+mac = 08:57:00:95:04:73 rssi -78
+mac = a4:56:02:9a:de:77 rssi -90
+mac = d4:83:04:31:62:20 rssi -90
+mac = b8:f8:83:4d:3f:44 rssi -74
+mac = 60:18:88:12:cf:37 rssi -86
+mac = 44:97:5a:a0:9f:5c rssi -81
+mac = b0:95:8e:0a:1d:98 rssi -79
+mac = d4:83:04:57:95:4c rssi -92
+mac = 4c:49:e3:24:c7:e6 rssi -90
+mac = c8:3a:35:cd:48:e8 rssi -92
+mac = 6c:59:40:3b:4c:ee rssi -94
+mac = 48:43:7c:e0:0d:8c rssi -65
+mac = f0:b4:29:d4:11:e1 rssi -62
+mac = 8e:d7:33:b1:69:78 rssi -94
+mac = f4:6a:92:51:51:56 rssi -88
+mac = 08:57:00:8a:12:0a rssi -50
+mac = 0c:72:2c:27:99:1c rssi -91
+mac = 78:44:76:f5:a0:92 rssi -89
+mac = 00:b0:0c:0a:0b:48 rssi -74
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 22725)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1257
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:35 2017","data":[{"mac":"f0:b4:29:d4:11:e1","rssi":"-67","range":"11.8"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","range":"2.7","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-67","range":"11.8","router":"mylan"},{"mac":"20:f4:1b:86:9c:3c","rssi":"-87","range":"65.0","router":"B-LINK_869C3C"},{"mac":"78:a1:06:f3:ed:02","rssi":"-86","range":"59.7","router":"MERCURY_F3ED02"},{"mac":"ec:17:2f:91:83:28","rssi":"-89","range":"77.1","router":"FAST_918328"},{"mac":"c0:61:18:a8:31:bc","rssi":"-89","range":"77.1","router":"FAST_31BC"},{"mac":"d0:c7:c0:67:a5:1c","rssi":"-86","range":"59.7","router":"TP-LINK_A51C"},{"mac":"88:25:93:74:65:17","rssi":"-69","rssi1":"-67","range":"11.8","router":"Y.S EDU"},{"mac":"46:96:72:a4:76:7f","rssi":"-91","range":"91.5"},{"mac":"0c:c6:55:45:c3:06","rssi":"-92","range":"99.7","router":"aaaaaaaaaaaaaaaaaaAndroidAP"},{"mac":"50:01:d9:fd:9b:31","rssi":"-85","range":"54.8"},{"mac":"00:b0:0c:30:de:d6","rssi":"-92","range":"99.7"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-88","range":"70.8"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-72","range":"18.1","router":"ChinaNet-t6xh"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1257
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:35 2017","data":[{"mac":"f0:b4:29:d4:11:e1","rssi":"-67","range":"11.8"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","range":"2.7","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-67","range":"11.8","router":"mylan"},{"mac":"20:f4:1b:86:9c:3c","rssi":"-87","range":"65.0","router":"B-LINK_869C3C"},{"mac":"78:a1:06:f3:ed:02","rssi":"-86","range":"59.7","router":"MERCURY_F3ED02"},{"mac":"ec:17:2f:91:83:28","rssi":"-89","range":"77.1","router":"FAST_918328"},{"mac":"c0:61:18:a8:31:bc","rssi":"-89","range":"77.1","router":"FAST_31BC"},{"mac":"d0:c7:c0:67:a5:1c","rssi":"-86","range":"59.7","router":"TP-LINK_A51C"},{"mac":"88:25:93:74:65:17","rssi":"-69","rssi1":"-67","range":"11.8","router":"Y.S EDU"},{"mac":"46:96:72:a4:76:7f","rssi":"-91","range":"91.5"},{"mac":"0c:c6:55:45:c3:06","rssi":"-92","range":"99.7","router":"aaaaaaaaaaaaaaaaaaAndroidAP"},{"mac":"50:01:d9:fd:9b:31","rssi":"-85","range":"54.8"},{"mac":"00:b0:0c:30:de:d6","rssi":"-92","range":"99.7"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-88","range":"70.8"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-72","range":"18.1","router":"ChinaNet-t6xh"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:35 2017","data":[{"mac":"f0:b4:29:d4:11:e1","rssi":"-67","range":"11.8"},{"mac":"08:57:00:8a:12:0a","rssi":"-50","range":"2.7","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-67","range":"11.8","router":"mylan"},{"mac":"20:f4:1b:86:9c:3c","rssi":"-87","range":"65.0","router":"B-LINK_869C3C"},{"mac":"78:a1:06:f3:ed:02","rssi":"-86","range":"59.7","router":"MERCURY_F3ED02"},{"mac":"ec:17:2f:91:83:28","rssi":"-89","range":"77.1","router":"FAST_918328"},{"mac":"c0:61:18:a8:31:bc","rssi":"-89","range":"77.1","router":"FAST_31BC"},{"mac":"d0:c7:c0:67:a5:1c","rssi":"-86","range":"59.7","router":"TP-LINK_A51C"},{"mac":"88:25:93:74:65:17","rssi":"-69","rssi1":"-67","range":"11.8","router":"Y.S EDU"},{"mac":"46:96:72:a4:76:7f","rssi":"-91","range":"91.5"},{"mac":"0c:c6:55:45:c3:06","rssi":"-92","range":"99.7","router":"aaaaaaaaaaaaaaaaaaAndroidAP"},{"mac":"50:01:d9:fd:9b:31","rssi":"-85","range":"54.8"},{"mac":"00:b0:0c:30:de:d6","rssi":"-92","range":"99.7"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-88","range":"70.8"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-72","range":"18.1","router":"ChinaNet-t6xh"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi': u'-67', u'mac': u'f0:b4:29:d4:11:e1', u'range': u'11.8'}, {u'rssi': u'-50', u'mac': u'08:57:00:8a:12:0a', u'range': u'2.7', u'router': u'TP-LINK_HyFi_504'}, {u'rssi': u'-67', u'mac': u'00:b0:0c:0a:0b:48', u'range': u'11.8', u'router': u'mylan'}, {u'rssi': u'-87', u'mac': u'20:f4:1b:86:9c:3c', u'range': u'65.0', u'router': u'B-LINK_869C3C'}, {u'rssi': u'-86', u'mac': u'78:a1:06:f3:ed:02', u'range': u'59.7', u'router': u'MERCURY_F3ED02'}, {u'rssi': u'-89', u'mac': u'ec:17:2f:91:83:28', u'range': u'77.1', u'router': u'FAST_918328'}, {u'rssi': u'-89', u'mac': u'c0:61:18:a8:31:bc', u'range': u'77.1', u'router': u'FAST_31BC'}, {u'rssi': u'-86', u'mac': u'd0:c7:c0:67:a5:1c', u'range': u'59.7', u'router': u'TP-LINK_A51C'}, {u'rssi': u'-69', u'mac': u'88:25:93:74:65:17', u'rssi1': u'-67', u'range': u'11.8', u'router': u'Y.S EDU'}, {u'rssi': u'-91', u'mac': u'46:96:72:a4:76:7f', u'range': u'91.5'}, {u'rssi': u'-92', u'mac': u'0c:c6:55:45:c3:06', u'range': u'99.7', u'router': u'aaaaaaaaaaaaaaaaaaAndroidAP'}, {u'rssi': u'-85', u'mac': u'50:01:d9:fd:9b:31', u'range': u'54.8'}, {u'rssi': u'-92', u'mac': u'00:b0:0c:30:de:d6', u'range': u'99.7'}, {u'rssi': u'-88', u'mac': u'70:a8:e3:d7:6e:14', u'range': u'70.8'}, {u'rssi': u'-72', u'mac': u'e0:4f:bd:c8:45:59', u'range': u'18.1', u'router': u'ChinaNet-t6xh'}]
+
+###########
+
+#### ITEM #######
+mac = f0:b4:29:d4:11:e1 rssi -67
+mac = 08:57:00:8a:12:0a rssi -50
+mac = 00:b0:0c:0a:0b:48 rssi -67
+mac = 20:f4:1b:86:9c:3c rssi -87
+mac = 78:a1:06:f3:ed:02 rssi -86
+mac = ec:17:2f:91:83:28 rssi -89
+mac = c0:61:18:a8:31:bc rssi -89
+mac = d0:c7:c0:67:a5:1c rssi -86
+mac = 88:25:93:74:65:17 rssi -69
+mac = 46:96:72:a4:76:7f rssi -91
+mac = 0c:c6:55:45:c3:06 rssi -92
+mac = 50:01:d9:fd:9b:31 rssi -85
+mac = 00:b0:0c:30:de:d6 rssi -92
+mac = 70:a8:e3:d7:6e:14 rssi -88
+mac = e0:4f:bd:c8:45:59 rssi -72
+
+#### ITEM #######
+waiting for connect...
+.... connected from: ('192.168.22.108', 43169)
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+datas type is :  <type 'str'>
+No jason datas
+
+================Get jason datas=====================
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1923
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:36 2017","data":[{"mac":"88:25:93:74:65:17","rssi":"-73","range":"19.7","router":"Y.S EDU"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-88","range":"70.8"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-75","range":"23.4","router":"ChinaNet-t6xh"},{"mac":"3c:91:57:07:9e:21","rssi":"-90","range":"84.0","essid0":"HYM"},{"mac":"6c:28:07:c0:1c:ac","rssi":"-95","range":"128.6"},{"mac":"8c:be:be:28:d1:6f","rssi":"-94","range":"118.1"},{"mac":"e4:d3:32:b2:45:18","rssi":"-93","range":"108.5"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-88","range":"70.8"},{"mac":"08:57:00:95:04:73","rssi":"-76","rssi1":"-76","rssi2":"-73","rssi3":"-76","range":"25.5"},{"mac":"d4:83:04:20:59:3a","rssi":"-91","rssi1":"-90","rssi2":"-91","range":"91.5"},{"mac":"d4:83:04:31:62:20","rssi":"-92","rssi1":"-90","rssi2":"-90","range":"84.0"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-80","range":"35.8"},{"mac":"60:18:88:12:cf:37","rssi":"-87","range":"65.0"},{"mac":"a8:57:4e:81:af:d4","rssi":"-88","range":"70.8"},{"mac":"28:6c:07:99:c0:66","rssi":"-83","range":"46.3"},{"mac":"c0:61:18:2d:fa:fa","rssi":"-93","range":"108.5"},{"mac":"d4:83:04:57:95:4c","rssi":"-94","range":"118.1"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-89","range":"77.1"},{"mac":"d0:37:42:e3:c2:67","rssi":"-88","range":"70.8","ds":"Y"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-89","range":"77.1"},{"mac":"6c:59:40:3b:4c:ee","rssi":"-91","range":"91.5"},{"mac":"08:57:00:8a:12:0a","rssi":"-48","range":"2.3","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-76","range":"25.5","router":"mylan"},{"mac":"c4:36:55:38:cf:d7","rssi":"-86","range":"59.7","router":"360WiFi-38CFD7"},{"mac":"44:04:44:ca:ab:ea","rssi":"-92","range":"99.7","ts":"dj","tmc":"50:bd:5f:3c:3b:00","tc":"Y"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-84","range":"50.4","router":"TP-LINK_FFEC"}]}
+================Get jason datas=====================
+
+POST /dsky HTTP/1.0
+HOST: 192.168.22.102:5000
+User-Agent: datasky Http 0.1
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Content-Length: 1923
+
+data={"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:36 2017","data":[{"mac":"88:25:93:74:65:17","rssi":"-73","range":"19.7","router":"Y.S EDU"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-88","range":"70.8"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-75","range":"23.4","router":"ChinaNet-t6xh"},{"mac":"3c:91:57:07:9e:21","rssi":"-90","range":"84.0","essid0":"HYM"},{"mac":"6c:28:07:c0:1c:ac","rssi":"-95","range":"128.6"},{"mac":"8c:be:be:28:d1:6f","rssi":"-94","range":"118.1"},{"mac":"e4:d3:32:b2:45:18","rssi":"-93","range":"108.5"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-88","range":"70.8"},{"mac":"08:57:00:95:04:73","rssi":"-76","rssi1":"-76","rssi2":"-73","rssi3":"-76","range":"25.5"},{"mac":"d4:83:04:20:59:3a","rssi":"-91","rssi1":"-90","rssi2":"-91","range":"91.5"},{"mac":"d4:83:04:31:62:20","rssi":"-92","rssi1":"-90","rssi2":"-90","range":"84.0"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-80","range":"35.8"},{"mac":"60:18:88:12:cf:37","rssi":"-87","range":"65.0"},{"mac":"a8:57:4e:81:af:d4","rssi":"-88","range":"70.8"},{"mac":"28:6c:07:99:c0:66","rssi":"-83","range":"46.3"},{"mac":"c0:61:18:2d:fa:fa","rssi":"-93","range":"108.5"},{"mac":"d4:83:04:57:95:4c","rssi":"-94","range":"118.1"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-89","range":"77.1"},{"mac":"d0:37:42:e3:c2:67","rssi":"-88","range":"70.8","ds":"Y"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-89","range":"77.1"},{"mac":"6c:59:40:3b:4c:ee","rssi":"-91","range":"91.5"},{"mac":"08:57:00:8a:12:0a","rssi":"-48","range":"2.3","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-76","range":"25.5","router":"mylan"},{"mac":"c4:36:55:38:cf:d7","rssi":"-86","range":"59.7","router":"360WiFi-38CFD7"},{"mac":"44:04:44:ca:ab:ea","rssi":"-92","range":"99.7","ts":"dj","tmc":"50:bd:5f:3c:3b:00","tc":"Y"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-84","range":"50.4","router":"TP-LINK_FFEC"}]}
+
+
+============================
+{"id":"00ac892f","mmac":"5e:cf:7f:ac:89:2f","rate":"1","wssid":"TP-LINK_HyFi_504","wmac":"08:57:00:8a:12:0a","time":"Tue Jul 11 20:16:36 2017","data":[{"mac":"88:25:93:74:65:17","rssi":"-73","range":"19.7","router":"Y.S EDU"},{"mac":"70:a8:e3:d7:6e:14","rssi":"-88","range":"70.8"},{"mac":"e0:4f:bd:c8:45:59","rssi":"-75","range":"23.4","router":"ChinaNet-t6xh"},{"mac":"3c:91:57:07:9e:21","rssi":"-90","range":"84.0","essid0":"HYM"},{"mac":"6c:28:07:c0:1c:ac","rssi":"-95","range":"128.6"},{"mac":"8c:be:be:28:d1:6f","rssi":"-94","range":"118.1"},{"mac":"e4:d3:32:b2:45:18","rssi":"-93","range":"108.5"},{"mac":"c8:3a:35:2d:32:d8","rssi":"-88","range":"70.8"},{"mac":"08:57:00:95:04:73","rssi":"-76","rssi1":"-76","rssi2":"-73","rssi3":"-76","range":"25.5"},{"mac":"d4:83:04:20:59:3a","rssi":"-91","rssi1":"-90","rssi2":"-91","range":"91.5"},{"mac":"d4:83:04:31:62:20","rssi":"-92","rssi1":"-90","rssi2":"-90","range":"84.0"},{"mac":"44:97:5a:a0:9f:5c","rssi":"-80","range":"35.8"},{"mac":"60:18:88:12:cf:37","rssi":"-87","range":"65.0"},{"mac":"a8:57:4e:81:af:d4","rssi":"-88","range":"70.8"},{"mac":"28:6c:07:99:c0:66","rssi":"-83","range":"46.3"},{"mac":"c0:61:18:2d:fa:fa","rssi":"-93","range":"108.5"},{"mac":"d4:83:04:57:95:4c","rssi":"-94","range":"118.1"},{"mac":"d4:83:04:ba:5b:6c","rssi":"-89","range":"77.1"},{"mac":"d0:37:42:e3:c2:67","rssi":"-88","range":"70.8","ds":"Y"},{"mac":"a8:57:4e:9e:04:f6","rssi":"-89","range":"77.1"},{"mac":"6c:59:40:3b:4c:ee","rssi":"-91","range":"91.5"},{"mac":"08:57:00:8a:12:0a","rssi":"-48","range":"2.3","router":"TP-LINK_HyFi_504"},{"mac":"00:b0:0c:0a:0b:48","rssi":"-76","range":"25.5","router":"mylan"},{"mac":"c4:36:55:38:cf:d7","rssi":"-86","range":"59.7","router":"360WiFi-38CFD7"},{"mac":"44:04:44:ca:ab:ea","rssi":"-92","range":"99.7","ts":"dj","tmc":"50:bd:5f:3c:3b:00","tc":"Y"},{"mac":"fc:d7:33:31:ff:ec","rssi":"-84","range":"50.4","router":"TP-LINK_FFEC"}]}
+============================
+
+
+1
+TP-LINK_HyFi_504
+08:57:00:8a:12:0a
+[u'wmac', u'wssid', u'rate', u'time', u'mmac', u'data', u'id']
+wssid value is
+TP-LINK_HyFi_504
+
+###########
+[{u'rssi': u'-73', u'mac': u'88:25:93:74:65:17', u'range': u'19.7', u'router': u'Y.S EDU'}, {u'rssi': u'-88', u'mac': u'70:a8:e3:d7:6e:14', u'range': u'70.8'}, {u'rssi': u'-75', u'mac': u'e0:4f:bd:c8:45:59', u'range': u'23.4', u'router': u'ChinaNet-t6xh'}, {u'rssi': u'-90', u'mac': u'3c:91:57:07:9e:21', u'range': u'84.0', u'essid0': u'HYM'}, {u'rssi': u'-95', u'mac': u'6c:28:07:c0:1c:ac', u'range': u'128.6'}, {u'rssi': u'-94', u'mac': u'8c:be:be:28:d1:6f', u'range': u'118.1'}, {u'rssi': u'-93', u'mac': u'e4:d3:32:b2:45:18', u'range': u'108.5'}, {u'rssi': u'-88', u'mac': u'c8:3a:35:2d:32:d8', u'range': u'70.8'}, {u'rssi2': u'-73', u'rssi3': u'-76', u'rssi1': u'-76', u'range': u'25.5', u'mac': u'08:57:00:95:04:73', u'rssi': u'-76'}, {u'rssi2': u'-91', u'rssi': u'-91', u'mac': u'd4:83:04:20:59:3a', u'rssi1': u'-90', u'range': u'91.5'}, {u'rssi2': u'-90', u'rssi': u'-92', u'mac': u'd4:83:04:31:62:20', u'rssi1': u'-90', u'range': u'84.0'}, {u'rssi': u'-80', u'mac': u'44:97:5a:a0:9f:5c', u'range': u'35.8'}, {u'rssi': u'-87', u'mac': u'60:18:88:12:cf:37', u'range': u'65.0'}, {u'rssi': u'-88', u'mac': u'a8:57:4e:81:af:d4', u'range': u'70.8'}, {u'rssi': u'-83', u'mac': u'28:6c:07:99:c0:66', u'range': u'46.3'}, {u'rssi': u'-93', u'mac': u'c0:61:18:2d:fa:fa', u'range': u'108.5'}, {u'rssi': u'-94', u'mac': u'd4:83:04:57:95:4c', u'range': u'118.1'}, {u'rssi': u'-89', u'mac': u'd4:83:04:ba:5b:6c', u'range': u'77.1'}, {u'rssi': u'-88', u'mac': u'd0:37:42:e3:c2:67', u'range': u'70.8', u'ds': u'Y'}, {u'rssi': u'-89', u'mac': u'a8:57:4e:9e:04:f6', u'range': u'77.1'}, {u'rssi': u'-91', u'mac': u'6c:59:40:3b:4c:ee', u'range': u'91.5'}, {u'rssi': u'-48', u'mac': u'08:57:00:8a:12:0a', u'range': u'2.3', u'router': u'TP-LINK_HyFi_504'}, {u'rssi': u'-76', u'mac': u'00:b0:0c:0a:0b:48', u'range': u'25.5', u'router': u'mylan'}, {u'rssi': u'-86', u'mac': u'c4:36:55:38:cf:d7', u'range': u'59.7', u'router': u'360WiFi-38CFD7'}, {u'range': u'99.7', u'ts': u'dj', u'mac': u'44:04:44:ca:ab:ea', u'tmc': u'50:bd:5f:3c:3b:00', u'rssi': u'-92', u'tc': u'Y'}, {u'rssi': u'-84', u'mac': u'fc:d7:33:31:ff:ec', u'range': u'50.4', u'router': u'TP-LINK_FFEC'}]
+
+###########
+
+#### ITEM #######
+mac = 88:25:93:74:65:17 rssi -73
+mac = 70:a8:e3:d7:6e:14 rssi -88
+mac = e0:4f:bd:c8:45:59 rssi -75
+mac = 3c:91:57:07:9e:21 rssi -90
+mac = 6c:28:07:c0:1c:ac rssi -95
+mac = 8c:be:be:28:d1:6f rssi -94
+mac = e4:d3:32:b2:45:18 rssi -93
+mac = c8:3a:35:2d:32:d8 rssi -88
+mac = 08:57:00:95:04:73 rssi -76
+mac = d4:83:04:20:59:3a rssi -91
+mac = d4:83:04:31:62:20 rssi -92
+mac = 44:97:5a:a0:9f:5c rssi -80
+mac = 60:18:88:12:cf:37 rssi -87
+mac = a8:57:4e:81:af:d4 rssi -88
+mac = 28:6c:07:99:c0:66 rssi -83
+mac = c0:61:18:2d:fa:fa rssi -93
+mac = d4:83:04:57:95:4c rssi -94
+mac = d4:83:04:ba:5b:6c rssi -89
+mac = d0:37:42:e3:c2:67 rssi -88
+mac = a8:57:4e:9e:04:f6 rssi -89
+mac = 6c:59:40:3b:4c:ee rssi -91
+mac = 08:57:00:8a:12:0a rssi -48
+mac = 00:b0:0c:0a:0b:48 rssi -76
+mac = c4:36:55:38:cf:d7 rssi -86
+mac = 44:04:44:ca:ab:ea rssi -92
+mac = fc:d7:33:31:ff:ec rssi -84
+
+#### ITEM #######
+waiting for connect...
