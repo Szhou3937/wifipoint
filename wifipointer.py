@@ -8,6 +8,7 @@ import time
 from socket import *
 from time import ctime
 from flask import Blueprint, request
+import math
 
 
 def check_json_format(raw_msg):
@@ -26,6 +27,11 @@ def check_json_format(raw_msg):
         return False
 
 
+def compute_distance(rssi, A, n):
+    y=(A-rssi)/(10*n)
+    return math.pow(10, y)
+
+
 def get_data():
     return
 
@@ -39,35 +45,35 @@ tcpSerSock.bind(ADDR);
 tcpSerSock.listen(5)
 
 while True:
-    print 'waiting for connect...'
+    # print 'waiting for connect...'
     tcpCliSock, addr = tcpSerSock.accept()
-    print '.... connected from:', addr
+    # print '.... connected from:', addr
 
     total_data = ""
     while True:
         datas = tcpCliSock.recv(BUFSIZE);
-        print "datas type is : ", type(datas)
+        # print "datas type is : ", type(datas)
 
         if not datas:
-            print 'No jason datas'
+            # print 'No jason datas'
             break;
         # total_data.append(datas)
         total_data+=datas
 
-    print '\n================Get jason datas====================='
-    print total_data
-    print '================Get jason datas=====================\n'
+    # print '\n================Get jason datas====================='
+    # print total_data
+    # print '================Get jason datas=====================\n'
 
     # print datas
     datastr = total_data.decode('utf-8')
     # datastr = str(total_data)
-    print datastr
+    # print datastr
     strlen = datastr.find("data=");
     # print  "data's index=", strlen
     datastr2 = datastr[strlen + 5:len(datastr)]
-    print "\n\n============================"
-    print datastr2
-    print "============================\n\n"
+    # print "\n\n============================"
+    # print datastr2
+    # print "============================\n\n"
     # da = "\"\"\""+datastr2+"\"\"\""
 
     # print "\n\n============================"
@@ -94,38 +100,43 @@ while True:
     datakeys=data.keys()
     if 'rate' in datakeys:
         rate = data['rate']
-        print rate
+        # print rate
     if 'wssid' in datakeys:
         wssid = data['wssid']
-        print wssid
+        # print wssid
     if 'wmac' in datakeys:
         wmac = data['wmac']
-        print wmac
+        # print wmac
     if 'lat' in datakeys:
         lat = data['lat']
-        print lat
+        # print lat
     if 'lon' in datakeys:
         lon = data['lon']
-        print lon
+        # print lon
     if 'addr' in datakeys:
         addr = data['addr']
-        print addr
-    print data.keys()
-    print 'wssid value is'
-    print wssid
+        # print addr
+    # print data.keys()
+    # print 'wssid value is'
+    # print wssid
 
-    print "\n###########"
+    # print "\n###########"
     if 'data' in datakeys:
         detail_info_list = data['data']
-        print detail_info_list
-    print "\n###########"
+        # print detail_info_list
+    # print "\n###########"
 
-    print "\n#### ITEM #######"
+    # print "\n#### ITEM #######"
     for e in detail_info_list:
         if 'mac' in e :
-            print "mac =", e["mac"],
-        if 'rssi' in e:
-            print "rssi", e["rssi"]
-    print "\n#### ITEM #######"
+            # print "mac =", e["mac"]
+            if(cmp(e["mac"] , "50:01:d9:fd:9b:31") == 0):
+                distance = compute_distance(int(e["rssi"]), -50, 2.1)
+                # print
+                print "手机和AP的距离半径=%f, rssi=%d"%(distance,int(e["rssi"]))
+                # print
+        #if 'rssi' in e:
+            #print "rssi", e["rssi"]
+    # print "\n#### ITEM #######"
     tcpCliSock.close()
 
